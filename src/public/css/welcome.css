@@ -1,0 +1,148 @@
+/* top----------------------------------------------------------- */
+.top{
+    width: 100%;
+    height: 600px;
+    background-color: #fcfcfc;
+    position: relative;
+}
+.shop_pictures{
+    
+    width: 100%;
+    height: 100%;
+}
+.shop_pictures>div{
+    position: absolute;
+    width: 100%;
+}
+.shop_pictures>div:not(:first-child){
+    opacity: 0;
+    display: flex;
+    align-items: center;
+}
+.shop_pictures img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
+}
+.top_title{
+    position: absolute;
+    opacity: 2;
+    background-color: #fff;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top_day{
+    position: absolute;
+    opacity: 2;
+    background-color: #CCCCCC;
+    bottom: 10px;
+    left: 10px;
+    padding: 20px;
+    line-height: 30px;
+}
+.top_day button{
+    width: 100%;
+    border-radius: 15px;
+    border: 0.5px solid black;
+    padding: 5px;
+
+}
+.menu_humbergar {
+    height: 80px;
+    width: 80px;
+    position: absolute;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius:50%;
+    z-index: 2;
+    top:50px;
+    right: 50px;
+    margin-left: auto;
+}
+.menu_humbergar > span {
+    display: block;
+    height: 5%;
+    background-color: black;
+    position: absolute;
+    transition: 0.2s;
+}
+.menu_humbergar_bar--top {
+    width: 50%;
+    left:25%;
+    top:20px;
+}
+.menu_humbergar_bar--middle {
+    top: 50%;
+    left:25%;
+    width: 50%;
+    transform: translate(0, -50%);
+}
+.menu_humbergar_bar--bottom {
+    width: 50%;
+    bottom: 20px;
+    left:25%;
+}
+.menu_humbergar.active span:nth-child(1) {
+    transform: rotate(45deg);
+    width: 50%;
+    top: 50%;
+}
+.menu_humbergar.active span:nth-child(2) {
+    opacity: 0;
+}
+.menu_humbergar.active span:nth-child(3) {
+    transform: rotate(-45deg);
+    width: 50%;
+    top: 50%;
+}
+
+/* category----------------------------------------------------- */
+.category{
+    z-index: 10;
+}
+.category_title{
+    text-align: center;
+    padding: 40px;
+}
+
+/* gallery--------------------------------------------------------- */
+
+.gallery_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.gallery_card--test{
+    width: 45%;
+    height: 150px;
+    margin: 10px 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px #576F72;
+}
+/* menu------------------------------------ */
+.menu_sex{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_sex--man,
+.menu_sex--woman{
+    width: 50%;
+    height: 150px;
+}
+.menu_sex--man{
+    background-color: #7DE5ED;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.menu_sex--woman{
+    background-color: #ff2323;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

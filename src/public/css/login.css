@@ -1,0 +1,39 @@
+.login{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 1px 1px 5px #576F72;
+}
+.login_title{
+    display: inline-block;
+    border-bottom: 3px solid #576F72;
+    margin-left: 10px;
+}
+.login img{
+    height: 20px;
+}
+.login input{
+    height: 20px;
+    margin-left: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 7px #576F72;
+}
+.login_form>div:not(:last-child){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.login_form>div:last-child{
+    text-align: end;
+}
+.login button{
+    margin-right: 20px;
+    border: none;
+    box-shadow: 3px 3px 7px #576F72;
+    border-radius: 5px;
+}
