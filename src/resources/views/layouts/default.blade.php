@@ -20,20 +20,26 @@
     @endif
 </head>
 <body class="body">
-    
-    <!-- <header class="header">
-        <div class="header_flex">
-            <div class="header_title">
-                <span class="header_logo">logo</span>
-                <h1>AMAZE</h1>
-            </div>
-            <div class="menu_humbergar" id="menu_humbergar">
-                <span class="menu_humbergar_bar--top"></span>
-                <span class="menu_humbergar_bar--middle"></span>
-                <span class="menu_humbergar_bar--bottom"></span>
-            </div>
+
+    <header class="header">
+        <div>
+            <h1 class="top_title">AMAZE</h1>
         </div>
-    </header> -->
+        <div class="shop_tel">
+            <table class="shop_tel_table">
+                <tr>
+                    <th>【TEL】</th>
+                    <th>【携帯】</th>
+                </tr>
+                <tr>
+                    <td>0994-45-7008</td>
+                    <td>080-8384-9955</td>
+                </tr>
+            </table>
+            <p>お電話に出られない場合は折り返しお電話いたします。</p>
+            <p>メールでのご予約はご遠慮ください</p>
+        </div>
+    </header>
 
     <main class="main">
         @yield('contents')
@@ -63,12 +69,12 @@
 </html>
 
     <script>
-        const menu = document.getElementById("menu_humbergar");
-        const mask = document.getElementById("mask");
-        menu.addEventListener('click',() => {
-            menu.classList.toggle('active');
-            mask.classList.toggle('active');
-        });
+        // const menu = document.getElementById("menu_humbergar");
+        // const mask = document.getElementById("mask");
+        // menu.addEventListener('click',() => {
+        //     menu.classList.toggle('active');
+        //     mask.classList.toggle('active');
+        // });
 
 
         // const fileInput = document.getElementById('fileInput');
@@ -77,29 +83,23 @@
         //     fileName.innerHTML = fileInput.files[0].name;
         // });
         
-        const test = document.getElementById('test_btn');
-        let slides = document.getElementsByClassName('shop_pictures')[0].getElementsByTagName('div');
-        viewSlide(2000);
-        function viewSlide(msec, slide_no = -1)
-        {
-            if (slide_no >= 0) {
-                slides[slide_no].style.opacity = 0;
-            }
-            slide_no++;
-            if (slide_no >= slides.length) {
-                slide_no = 0;
-            }
-            slides[slide_no].style.opacity = 1;
-            slides[slide_no].style.transition = '1s';
-            setTimeout(function(){viewSlide(msec, slide_no);}, msec);
-        }
+        // const test = document.getElementById('test_btn');
+        // let slides = document.getElementsByClassName('shop_pictures')[0].getElementsByTagName('div');
+        // viewSlide(2000);
+        // function viewSlide(msec, slide_no = -1)
+        // {
+        //     if (slide_no >= 0) {
+        //         slides[slide_no].style.opacity = 0;
+        //     }
+        //     slide_no++;
+        //     if (slide_no >= slides.length) {
+        //         slide_no = 0;
+        //     }
+        //     slides[slide_no].style.opacity = 1;
+        //     slides[slide_no].style.transition = '1s';
+        //     setTimeout(function(){viewSlide(msec, slide_no);}, msec);
+        // }
 
-        var element = document.getElementById('target'); 
-        var rect = element.getBoundingClientRect();
-        var position = rect.top;   
-        function scrollToDown() {
-            scrollTo(0, position);
-        }
     </script>
 </body>
 </html>

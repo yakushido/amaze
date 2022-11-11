@@ -24,16 +24,6 @@
     height: 600px;
     object-fit: cover;
 }
-.top_title{
-    position: absolute;
-    opacity: 2;
-    background-color: #fff;
-    width: 100px;
-    height: 70px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .top_day{
     position: absolute;
     opacity: 2;
@@ -59,7 +49,7 @@
     border: 1px solid black;
     border-radius:50%;
     z-index: 2;
-    top:50px;
+    top: 100px;
     right: 50px;
     margin-left: auto;
 }

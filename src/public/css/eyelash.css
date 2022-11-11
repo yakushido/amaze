@@ -1,0 +1,174 @@
+.eyelash{
+    padding-top: 100px;
+    margin: 0 auto;
+}
+.eyelash_title{
+    text-align: center;
+    margin: 50px;
+}
+
+.eyelash_category{
+    height: 70vh;
+}
+.eyelash_category_flex:nth-child(2n){
+    right: 0;
+}
+.eyelash_category_flex{
+    position: relative;
+    box-sizing: border-box;
+    height: 25%;
+    border-bottom: 5px solid #ACACAC;
+}
+.eyelash_category_flex:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.eyelash_category_flex>div{
+    position: absolute;
+    display: inline;
+    width: 50%;
+    height: 100%;
+}
+.eyelash_category_flex:nth-child(2n)>div:first-child{
+    right: 0;
+}
+.eyelash_category_flex>h3{
+    position: absolute;
+    bottom: 0;
+    background-color: #ACACAC;
+    color: #fff;
+    padding: 2px;
+}
+.eyelash_category_flex:nth-child(2n-1)>h3{
+    right: 0px;
+}
+.eyelash_category_flex>div>div{
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.eyelash_category_flex>div>div::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 10px 15px #F0EBE3;
+}
+.eyelash_category img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.eyelash_category_flex:nth-child(2n-1)>div:last-child{
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eyelash_category_flex:nth-child(2n)>div:last-child{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.eyelash_category li{
+    font-size: 13px;
+    margin: 5px;
+    border-bottom: 0.5px solid black;
+}
+
+.eyelash_card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    margin: 20px;
+    padding: 10px;
+}
+.eyelash_menu{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+}
+/* .eyelash_comment{
+    margin: 10px 5px;
+    padding: 10px 5px;
+    font-size: 10px;
+    background-color: #FCFDF2;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    display: flex;
+}
+.eyelash_comment--image{
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+.eyelash_comment--image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.eyelash_comment--item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.eyelash_comment p{
+    margin-left: 5px;
+}
+.eyelash_comment--span{
+    width: 10px;
+    height: 10px;
+}
+.eyelash_comment--flex{
+    display: flex;
+    margin: 3px ;
+}
+.eyelash_comment--span img{
+    height: 100%;
+} */
+
+.menu{
+    text-align: center;
+    margin: 50px;
+}
+
+.eyelash_course{
+    display: flex;
+    justify-content: space-between;
+    margin: 30px 0 30px;
+    position: relative;
+    z-index: 1;
+}
+.eyelash_course::before{
+    content: "";
+    position: absolute;
+    top: 0.95em;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background-color: #D7D2CA;
+}
+.eyelash_course li{
+    padding: 5px 10px 0 5px;
+    background-color: #fff;
+    z-index: 2;
+}
+.eyelash_course--plice{
+    text-align: end;
+}
+
+.eyelash_limit{
+    border: 0.5px solid black;
+    margin-left: 5px;
+    font-size: 10px;
+    padding: 1px 3px;
+}

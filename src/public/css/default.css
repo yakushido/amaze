@@ -44,6 +44,39 @@ li{
     color: blue;
 }
 
+.header{
+    height: 70px;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+}
+.top_title{
+    background-color: #fff;
+    width: 100px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shop_tel{
+    display: inline-block;
+    background-color: #fff;
+}
+.shop_tel_table{
+    margin: 1px auto 0;
+}
+.shop_tel_table td{
+    padding: 2px 5px;
+}
+.shop_tel p{
+    font-size: 10px;
+    border: 0.5px solid black;
+    margin: 2px;
+    padding: 1px 2px;
+}
+
 /* main------------------------------------------------- */
 .main{
     margin-bottom: 100px;

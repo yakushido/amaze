@@ -13,7 +13,6 @@
             <img src="{{ Storage::url($shop_picture['picture']) }}" alt="">
         </div>
         @endforeach  
-        <h1 class="top_title">AMAZE</h1>
     </div>
     <div class="menu_humbergar" id="menu_humbergar">
         <span class="menu_humbergar_bar--top"></span>
@@ -30,24 +29,24 @@
 </div>
 
 <div class="category">
-    <div class="gallery">
-        <h3 class="category_title">[ ギャラリー ]</h3>
-        <div class="gallery_cards">
-            <div class="gallery_card--test">test</div>
-            <div class="gallery_card--test">test</div>
-            <div class="gallery_card--test">test</div>
-            <div class="gallery_card--test">test</div>
-        </div>
+    <div class="campain">
+        <h3>[ Campain ]</h3>
+        <table>
+            <tr>
+                <th></th>
+                <td></td>
+            </tr>
+        </table>
     </div>
     
     <div class="menu">
-        <h3 class="category_title">[ メニュー ]</h3>
+        <h3 class="category_title">[ Menu ]</h3>
         <div class="menu_sex">
             <div class="menu_sex--man">
-                <a href="">男性用</a>
+                <a href="/menu/men">男性用</a>
             </div>
-            <div class="menu_sex--woman">
-                <a href="">女性用</a>
+            <div class="menu_sex--women">
+                <a href="/menu/women">女性用</a>
             </div>
         </div>
     </div>

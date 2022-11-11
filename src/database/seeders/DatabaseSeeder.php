@@ -16,6 +16,12 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategoriesTableSeeder::class,
             UsersTableSeeder::class,
+            EyelashCategoriesTableSeeder::class,
+            EyelashCoursesTableSeeder::class,
+            EyelashesTableSeeder::class,
+            EyelashCommentsTableSeeder::class,
+            EyelashLimitsTableSeeder::class,
+            EyalashImagesTableSeeder::class
         ]);
     }
 }
