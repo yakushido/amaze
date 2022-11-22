@@ -16,12 +16,47 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategoriesTableSeeder::class,
             UsersTableSeeder::class,
-            EyelashCategoriesTableSeeder::class,
-            EyelashCoursesTableSeeder::class,
-            EyelashesTableSeeder::class,
-            EyelashCommentsTableSeeder::class,
-            EyelashLimitsTableSeeder::class,
-            EyalashImagesTableSeeder::class
+
+            ShopImagesTableSeeder::class,
+
+            EyelashGenresTableSeeder::class,
+            EyelashAsTableSeeder::class,
+            EyelashBsTableSeeder::class,
+            EyelashCsTableSeeder::class,
+            EyelashDsTableSeeder::class,
+
+            DepilationGenresTableSeeder::class,
+            DepilationPartsTableSeeder::class,
+            DepilationAsTableSeeder::class,
+            DepilationBsTableSeeder::class,
+            DepilationCsTableSeeder::class,
+            DepilationSDetailsTableSeeder::class,
+            DepilationLDetailsTableSeeder::class,
+
+            EstheticGenresTableSeeder::class,
+            EstheticPartsTableSeeder::class,
+            EstheticAsTableSeeder::class,
+            EstheticBsTableSeeder::class,
+            EstheticCsTableSeeder::class,
+            EstheticDsTableSeeder::class,
+
+            WormwoodGenresTableSeeder::class,
+            WormwoodAsTableSeeder::class,
+
+            BridalGenresTableSeeder::class,
+            BridalAsTableSeeder::class,
+            BridalBsTableSeeder::class,
+            BridalCsTableSeeder::class,
+            BridalDsTableSeeder::class,
+
+            NailGenresTableSeeder::class,
+            NailAsTableSeeder::class,
+            NailBsTableSeeder::class,
+            NailCsTableSeeder::class,
+            NailDsTableSeeder::class,
+        
+            GendersTableSeeder::class,
+            CampaignsTableSeeder::class
         ]);
     }
 }

@@ -15,35 +15,13 @@ p{
 li{
     list-style: none;
 }
-/* header ------------------------------------------ */
-.mask {
-    position: fixed;
-    width: 100vw;
-    height: 100vh;
-    margin-top: -50px;
-    left: -100%;
-    background-color: #fff;
-    transition: 0.5s;
-    z-index: -1;
-}
-.mask.active {
-    left: 0;
-    z-index: 1;
-}
-.mask-menu_lists {
-    text-align: center;
-    margin-top: 50px;
-    padding: 70px;
-}
-.mask-menu_lists > li {
-    padding: 25px;
-    list-style: none;
-}
-.mask-menu_lists > li > a {
-    text-decoration: none;
-    color: blue;
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
+/* header ------------------------------------------ */
 .header{
     height: 70px;
     width: 100%;
@@ -52,7 +30,7 @@ li{
     display: flex;
     justify-content: space-between;
 }
-.top_title{
+.header_title{
     background-color: #fff;
     width: 100px;
     height: 70px;
@@ -86,33 +64,273 @@ li{
 .footer{
     background-color: #CCCCCC;
     width: 100%;
-}
-.footer_flex{
-    display: flex;
-    height: 450px;
-}
-.map{
-    width: 70%;
-}
-.map iframe{
-    width: 100%;
-    height: 100%;
+    padding-bottom: 30px;
 }
 .footer_title{
     text-align: center;
     padding: 40px;
 }
+.map{
+    width: 70%;
+    height: 40vh;
+    margin: auto;
+}
+.map iframe{
+    width: 100%;
+    height: 100%;
+}
 .footer_contact{
+    margin: 30px;
     display: flex;
     justify-content: center;
-    align-items: center;
-    margin-top: -40px;
+    text-align: center;
 }
 .footer_contact ul{
-    width: 70%;
-    text-align: center;
+    width: 80%;
 }
 .footer_contact p{
     display: block;
     margin: 5px 0 20px;
+}
+
+/* All */
+.sub_body{
+    padding-top: 100px
+}
+.top_title{
+    text-align: center;
+    margin: 50px;
+}
+.top_menu_wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.top_menu{
+    aspect-ratio: 4 / 3;
+    width: 50%;
+    display: flex;
+}
+.top_menu:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+.top_menu_img{
+    width: 100%;
+    position: relative;
+}
+.top_menu_img>h2{
+    position: absolute;
+    z-index: 2;
+    top: 20%;
+    left: 10%;
+}
+.top_menu_img>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.gradation{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.gradation::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 10px 15px #F0EBE3;
+}
+.img_test{
+    background-color: #DBC8AC;
+}
+.top_menu_content{
+    width: 40%;
+}
+.genre_title{
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    position: relative;
+    margin: 30px 5px 30px;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    top: 0.95em;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background-color: #D7D2CA;
+}
+.line b,
+.line>p{
+    z-index: 2;
+    padding: 5px 10px 0 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    margin: 20px;
+    padding: 10px;
+}
+
+.detail_one{
+    width: 80%;
+    margin: 30px auto 0;
+}
+.detail_one>p{
+    line-height: 30px;
+    padding: 10px;
+    word-wrap: keep-all;
+    background-color: #EEF1FF;
+    border-radius: 15px;
+}
+.detail_many{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.detail_many>p{
+    background-color: #FFFAD7;
+    padding: 5px 10px;
+    border-radius: 15px;
+    margin: 30px 10px 0;
+}
+.detail_many span{
+    font-size: 12px;
+}
+.back{
+    text-align: end;
+    margin-right: 20px;
+}
+.back>a{
+    text-decoration: none;
+    color: black;
+}
+.back_to_menu{
+    text-align: end;
+    margin: 0 30px 20px 0;
+}
+.back_to_menu>a{
+    text-decoration: none;
+    color: black;
+}
+
+/* admin_All */
+.admin_top_title>h2{
+    padding: 5px;
+    margin-bottom: 30px;
+}
+.admin_top_title>div>h3{
+    margin-bottom: 5px;
+}
+.icon_img{
+    height: 20px;
+    width: 20px;
+}
+.admin_add{
+    width: 90%;
+    margin: auto;
+}
+.admin_add_form_text input,
+.admin_add_form_text select{
+    height: 30px;
+    margin-left: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.admin_add_form_text,
+.file_flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+.admin_add_form_button{
+    text-align: center;
+}
+.admin_add_form_button button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    border-radius: 5px;
+    background-color: rgb(193, 255, 206);
+}
+.admin_update_delete{
+    display: flex;
+    justify-content: space-around;
+}
+.admin_update_delete a,
+.admin_update_delete button{
+    width: 100px;
+    height: 20pxx;
+    border-radius: 15px;
+}
+.admin_update_delete a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    margin-right: 10px
+}
+.admin_delete_button{
+    background-color: #EEF1FF;
+    border: 1px solid #adbcff;
+}
+.admin_update_button{
+    background-color: #FFFAD7;
+    border: 1px solid #f3e790;
+}
+.admin_part_input_update{
+    margin: 10px auto;
+    text-align: center;
+}
+.admin_update_form b{
+    width: 60%;
+}
+.admin_update_form input{
+    width: 100%;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.admin_update_form p{
+    width: 20%;
+}
+.admin_update_form>div:last-child{
+    text-align: center;
+    margin-right: 20px;
+}
+.admin_update_form button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    border-radius: 5px;
+    background-color: rgb(193, 255, 206);
 }

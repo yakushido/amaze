@@ -7,40 +7,110 @@
 <link rel="stylesheet" href="{{ asset('css\admin.css') }}">
 @endif
 
-<div class="admin">
-    <h2>管理者用ページ</h2>
-    <div class="picture">
-        <h3 class="picture_title">写真の追加フォーム</h3>
-        <form action="{{ route('admin.store') }}" method="POST" class="picture_add_form" enctype="multipart/form-data">
-        @csrf
-            <div>
-                <img src="/storage/icon_title.png">
-                <input type="text" name="name" placeholder="タイトルを入力してください">
-            </div>
-            <div>
-                <img src="/storage/icon_category.png" alt="">
-                <select name="category_id">
-                    <option value="">カテゴリーを選択してください</option>
-                    @foreach( $categoryLists as $category )
-                    <option value="{{ $category['id'] }}">{{ $category['name'] }}</option>
-                    @endforeach
-                </select>
-            </div>
-            <div>
-                <div class="file_flex">
-                    <img src="/storage/icon_picture.png" alt="">
-                    <p class="fileLabel">ファイルを選択</p>
-                    <input type="file" name="img_path" id="fileInput" class="fileInput">
-                </div>
-                <div class="file_name">
-                    <p id="fileName">ファイルが未選択です</p>
-                </div>
-            </div>
-            <div>
-                <button id="buttonChange">追加する</button>
-            </div>
+<div class="sub_body">
+
+    <div class="back_to_menu logout">
+        <form action="{{ route('logout') }}" method="POST">
+            @csrf
+            <button>logout</button>
         </form>
     </div>
+
+    <div>
+    <ul class="admin_menu">
+        <li class="admin_menu_card">
+            <a href="/admin/shop">
+                <div>
+                    <h2>Shop Images</h2>
+                    <p>【 店舗写真 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/campaign">
+                <div>
+                    <h2>Campaign</h2>
+                    <p>【 キャンペーン 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/eyelash">
+                <div>
+                    <h2>Eyelashes Extensions & Perm</h2>
+                    <p>【 マツエク＆まつげパーマ 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/depilation">
+                <div>
+                    <h2>Depilation</h2>
+                    <p>【 脱毛 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/wormwood">
+                <div>
+                    <h2>Wormwood streaming</h2>
+                    <p>【 よもぎ蒸し 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/bridal">
+                <div>
+                    <h2>Bridal</h2>
+                    <p>【 ブライダル 】</p>
+                </div>    
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        <li class="admin_menu_card">
+            <a href="/admin/nail">
+                <div>
+                    <h2>Nail</h2>
+                    <p>【 ネイル 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        @if( Auth::user()['name'] == "admin" )
+        <li class="admin_menu_card">
+            <a href="/admin/register">
+                <div>
+                    <h2>Register</h2>
+                    <p>【 スタッフの登録 】</p>
+                </div>
+                <div class="gradation">
+                    <img class="img_test" src="" alt="">
+                </div>
+            </a>
+        </li>
+        @endif
+    </ul>
+    </div>
+
 </div>
 
 @endsection

@@ -3,34 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\Category;
-use App\Models\ShopImage;
+use App\Models\User;
 
 class AdminController extends Controller
 {
     public function index()
     {
-        $categoryLists = Category::all();
-
-        return view('admin', compact(
-            'categoryLists'
-        ));
+        return view('admin');
     }
 
-    public function store(Request $request)
+    public function delete($id)
     {
-        $img = $request->file('img_path')->getClientOriginalName();
-        
-        $path = $request->file('img_path')->storeAs('public/img',$img);
-        
-        ShopImage::create([
-            'name' => $request->name,
-            'category_id' => $request->category_id,
-            'picture' => $path
-        ]);
-
+        $user_delete = User::find($id);
+        $user_delete->delete();
         return redirect()
-            ->route('admin')
-            ->withStatus("追加しました");
+            ->route('admin.delete')
+            ->withStatus('削除しました');
     }
 }

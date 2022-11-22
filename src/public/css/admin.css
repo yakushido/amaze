@@ -1,75 +1,32 @@
-.admin>h2{
-    text-align: center;
-    margin-top: 30px;
-}
-.picture{
-    border: 1px solid black;
-    border-radius: 5px;
-    margin: 30px auto;
-    padding: 20px;
-    width: 300px;
-    box-shadow: 1px 1px 5px #576F72;
-}
-.picture_title{
-    display: inline-block;
-    border-bottom: 3px solid #576F72;
-    margin-left: 10px;
-}
-.picture img{
-    height: 20px;
-}
-.picture input,
-.picture select{
-    height: 20px;
-    margin-left: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 7px #576F72;
-}
-.picture_add_form>div:nth-of-type(1),
-.picture_add_form>div:nth-of-type(2),
-.file_flex{
+.admin_menu{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
+    flex-wrap: wrap;
 }
-.picture_add_form>div:last-child{
-    text-align: end;
+.admin_menu a{
+    display: block;
+    text-decoration: none;
 }
-.picture button{
-    margin: 10px 20px;
-    border: none;
-    box-shadow: 3px 3px 7px #576F72;
-    border-radius: 5px;
+.admin_menu_card{
+    aspect-ratio: 4 / 3;
+    width: 50%;
 }
-
-.fileLabel{
-    position: absolute;
-    height: 20px;
-    margin-left: 30px;
-    width: 230px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 7px #576F72;
-    background: #aaa;
-    line-height: 20px;
-    text-align: center;
-}
-.fileInput{
-    height: 20px;
-    width: 230px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 7px #576F72;
-    opacity: 0;
+.admin_menu_card>a{
     position: relative;
+    height: 100%;
 }
-.fileLabel:hover,
-.fileInput:hover{
-    cursor: pointer;
+.admin_menu_card>a>div{
+    position: absolute;
 }
-.file_name{
-    text-align: center;
+.admin_menu_card>a>div:first-child{
+    bottom: 10%;
+    left: 10%;
+    z-index: 2;
+}
+.logout button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    border-radius: 5px;
+    background-color: rgb(193, 241, 255);
+
 }

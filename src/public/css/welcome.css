@@ -1,18 +1,18 @@
 /* top----------------------------------------------------------- */
 .top{
     width: 100%;
-    height: 600px;
-    background-color: #fcfcfc;
+}
+.top>div{
     position: relative;
 }
 .shop_pictures{
-    
     width: 100%;
-    height: 100%;
+    aspect-ratio: 4 / 3;
 }
 .shop_pictures>div{
     position: absolute;
     width: 100%;
+    height: 100%;
 }
 .shop_pictures>div:not(:first-child){
     opacity: 0;
@@ -21,17 +21,26 @@
 }
 .shop_pictures img{
     width: 100%;
-    height: 600px;
+    height: 100%;
     object-fit: cover;
 }
 .top_day{
     position: absolute;
+    width: 35%;
     opacity: 2;
     background-color: #CCCCCC;
     bottom: 10px;
     left: 10px;
-    padding: 20px;
-    line-height: 30px;
+    padding: 5px;
+}
+.top_day>h2{
+    font-size: 13px;
+    text-align: center;
+}
+.top_day>p{
+    font-size: 10px;
+    margin: 5px;
+    text-align: center;
 }
 .top_day button{
     width: 100%;
@@ -40,9 +49,11 @@
     padding: 5px;
 
 }
+
+/* ハンバーガーメニュー */
 .menu_humbergar {
-    height: 80px;
-    width: 80px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     right: 0;
     cursor: pointer;
@@ -50,7 +61,7 @@
     border-radius:50%;
     z-index: 2;
     top: 100px;
-    right: 50px;
+    right: 30px;
     margin-left: auto;
 }
 .menu_humbergar > span {
@@ -63,7 +74,7 @@
 .menu_humbergar_bar--top {
     width: 50%;
     left:25%;
-    top:20px;
+    top:15px;
 }
 .menu_humbergar_bar--middle {
     top: 50%;
@@ -73,7 +84,7 @@
 }
 .menu_humbergar_bar--bottom {
     width: 50%;
-    bottom: 20px;
+    bottom: 15px;
     left:25%;
 }
 .menu_humbergar.active span:nth-child(1) {
@@ -90,6 +101,33 @@
     top: 50%;
 }
 
+/* マスク */
+.mask {
+    position: absolute;
+    width: 100vw;
+    height: 100%;
+    top: 0;
+    left: -100%;
+    background-color: #fff;
+    transition: 0.5s;
+    z-index: -1;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.mask.active {
+    left: 0;
+    z-index: 1;
+}
+.mask-menu__lists li{
+    margin: 10px;
+}
+.mask-menu__lists a{
+    text-decoration: none;
+    color: black;
+}
+
 /* category----------------------------------------------------- */
 .category{
     z-index: 10;
@@ -99,40 +137,28 @@
     padding: 40px;
 }
 
-/* gallery--------------------------------------------------------- */
-
-.gallery_cards{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-}
-.gallery_card--test{
-    width: 45%;
-    height: 150px;
-    margin: 10px 5px;
-    border: 1px solid black;
-    border-radius: 5px;
-    box-shadow: 1px #576F72;
-}
 /* menu------------------------------------ */
 .menu_sex{
-    display: flex;
-    justify-content: space-around;
-}
-.menu_sex--man,
-.menu_sex--woman{
     width: 50%;
-    height: 150px;
+    aspect-ratio: 4 / 3;
 }
-.menu_sex--man{
-    background-color: #7DE5ED;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu_sex>a{
+    display: block;
+    position: relative;
+    height: 100%;
+    text-decoration: none;
 }
-.menu_sex--woman{
-    background-color: #ff2323;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.menu_sex>a>div{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.menu_sex>a>p{
+    position: absolute;
+    padding: 10px;
+    transform: translateX(-50%);
+    color: black;
+    z-index: 3;
+    left: 25%;
+    bottom: 15%;
 }

@@ -1,0 +1,12 @@
+.nail_top{
+    flex-wrap: wrap;
+}
+.nail_top_menu{
+    height: 30vh;
+    width: 50%;
+}
+
+/* admin */
+.admin_nail_hide{
+    display: none;
+}

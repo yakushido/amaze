@@ -1,0 +1,26 @@
+.staff_ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.staff_ul>div{
+    width: 50%;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: space-between;
+    padding: 5px 10px;
+    border-bottom: 2px solid #ACACAC;
+}
+.staff_ul>div>li{
+    display: flex;
+    align-items: center;
+}
+
+.admin_delete_button{
+    height: 30px;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #EEF1FF;
+    border: 1px solid #adbcff;
+    display: flex;
+    align-items: center;
+}
