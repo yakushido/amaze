@@ -12,4 +12,9 @@ class DepilationPart extends Model
     protected $fillable = [
         'name'
     ];
+    
+    public function Depilations()
+    {
+        return $this->hasMany('App\Models\Depilation');
+    }
 }

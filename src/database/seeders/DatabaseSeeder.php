@@ -20,40 +20,27 @@ class DatabaseSeeder extends Seeder
             ShopImagesTableSeeder::class,
 
             EyelashGenresTableSeeder::class,
-            EyelashAsTableSeeder::class,
-            EyelashBsTableSeeder::class,
-            EyelashCsTableSeeder::class,
-            EyelashDsTableSeeder::class,
+            EyelashesTableSeeder::class,
 
             DepilationGenresTableSeeder::class,
             DepilationPartsTableSeeder::class,
-            DepilationAsTableSeeder::class,
-            DepilationBsTableSeeder::class,
-            DepilationCsTableSeeder::class,
+            DepilationsTableSeeder::class,
             DepilationSDetailsTableSeeder::class,
             DepilationLDetailsTableSeeder::class,
 
             EstheticGenresTableSeeder::class,
             EstheticPartsTableSeeder::class,
-            EstheticAsTableSeeder::class,
-            EstheticBsTableSeeder::class,
-            EstheticCsTableSeeder::class,
-            EstheticDsTableSeeder::class,
+            EstheticsTableSeeder::class,
 
             WormwoodGenresTableSeeder::class,
-            WormwoodAsTableSeeder::class,
+            WormwoodsTableSeeder::class,
 
             BridalGenresTableSeeder::class,
-            BridalAsTableSeeder::class,
-            BridalBsTableSeeder::class,
-            BridalCsTableSeeder::class,
-            BridalDsTableSeeder::class,
+            BridalPartsTableSeeder::class,
+            BridalsTableSeeder::class,
 
             NailGenresTableSeeder::class,
-            NailAsTableSeeder::class,
-            NailBsTableSeeder::class,
-            NailCsTableSeeder::class,
-            NailDsTableSeeder::class,
+            NailsTableSeeder::class,
         
             GendersTableSeeder::class,
             CampaignsTableSeeder::class

@@ -16,78 +16,134 @@ class BridalsTableSeeder extends Seeder
     {
         DB::table('bridals')->insert([
             [
-                'id' => 1,
-                'name' => 'シェービングFACE',
-                'part' => 'お顔全体',
-                'plice' => 2200
+                'name' => null,
+                'bridal_genre_id' => 1, // カスタムメニュー
+                'bridal_part_id' => null,
+                'pliceA' => 55000,
+                'pliceB' => null
             ],
             [
-                'id' => 2,
-                'name' => 'シェービングBODY',
-                'part' => '背中 + えり足 + 二の腕',
-                'plice' => 3300
+                'name' => null,
+                'bridal_genre_id' => 1, // カスタムメニュー
+                'bridal_part_id' => null,
+                'pliceA' => 110000,
+                'pliceB' => null
             ],
             [
-                'id' => 3,
-                'name' => 'ピーリングBODY【 L 】',
-                'part' => '背中 + 二の腕',
-                'plice' => 2200
+                'name' => null,
+                'bridal_genre_id' => 1, // カスタムメニュー
+                'bridal_part_id' => null,
+                'pliceA' => 165000,
+                'pliceB' => null
             ],
+
             [
-                'id' => 4,
-                'name' => 'ピーリングBODY【 M 】',
-                'part' => '脇 + ひざ周り',
-                'plice' => 1650
-            ],
-            [
-                'id' => 5,
-                'name' => 'ピーリングBODY【 S 】',
-                'part' => '脇のみ',
-                'plice' => 1100
-            ],
-            [
-                'id' => 6,
-                'name' => '美白パック【 L 】',
-                'part' => '背中 + デコルテ + 首',
-                'plice' => 2750
-            ],
-            [
-                'id' => 7,
-                'name' => '美白パック【 M 】',
-                'part' => '二の腕',
-                'plice' => 1650
-            ],
-            [
-                'id' => 8,
-                'name' => '美白パック【 S 】',
-                'part' => '脇 + えり足 + ひざ周り',
-                'plice' => 1100
-            ],
-            [
-                'id' => 9,
-                'name' => '美肌パック【 L 】',
-                'part' => '背中 + デコルテ + 首',
-                'plice' => 2750
-            ],
-            [
-                'id' => 10,
-                'name' => '美肌パック【 M 】',
-                'part' => '二の腕',
-                'plice' => 1650
-            ],
-            [
-                'id' => 11,
-                'name' => '美肌パック【 S 】',
-                'part' => '脇 + えり足 + ひざ周り',
-                'plice' => 1100
-            ],
-            [
-                'id' => 12,
-                'name' => '泡エステBODY',
-                'part' => '背中全体',
-                'plice' => 2200
+                'name' => null,
+                'bridal_genre_id' => 2, // 1day
+                'bridal_part_id' => null,
+                'pliceA' => 16500,
+                'pliceB' => null
             ],
             
+            [
+                'name' => null,
+                'bridal_genre_id' => 3, // マタニティプラン(16週目から)
+                'bridal_part_id' => null,
+                'pliceA' => 33000,
+                'pliceB' => null
+            ],
+            [
+                'name' => null,
+                'bridal_genre_id' => 3, // マタニティプラン(16週目から)
+                'bridal_part_id' => null,
+                'pliceA' => 55000,
+                'pliceB' => null
+            ],
+            
+            [
+                'name' => 'シェービングFACE',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 1,
+                'pliceA' => 2200,
+                'pliceB' => null
+            ],
+            [
+                'name' => 'シェービングBODY',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 2,
+                'pliceA' => 3300,
+                'pliceB' => null
+            ],
+            [
+                'name' => 'ピーリングBODY【 S 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 3,
+                'pliceA' => 1100,
+                'pliceB' => null
+            ],
+            [
+                'name' => 'ピーリングBODY【 M 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 4,
+                'pliceA' => 1650,
+                'pliceB' => null
+            ],
+            [
+                'name' => 'ピーリングBODY【 L 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 5,
+                'pliceA' => 2200,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美白パック【 S 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 6,
+                'pliceA' => 1100,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美白パック【 M 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 7,
+                'pliceA' => 1650,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美白パック【 L 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 8,
+                'pliceA' => 2750,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美肌パック【 S 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 6,
+                'pliceA' => 1100,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美肌パック【 M 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 7,
+                'pliceA' => 1650,
+                'pliceB' => null
+            ],
+            [
+                'name' => '美肌パック【 L 】',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 8,
+                'pliceA' => 2750,
+                'pliceB' => null
+            ],
+            [
+                'name' => '泡エステBODY',
+                'bridal_genre_id' => 4, // 単品メニュー
+                'bridal_part_id' => 9,
+                'pliceA' => 2200,
+                'pliceB' => null
+            ],
         ]);
 
     }

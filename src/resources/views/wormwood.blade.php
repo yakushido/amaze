@@ -33,34 +33,25 @@
     </div>
 
     <div>
-        @foreach( $wormwood_genres as $genre )
-
-            <!-- よもぎ蒸し -->
-            @if( $genre['id'] === 1 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    @foreach( $wormwoodAs as $A )
-                        <div class="flex line">
-                            <b>{{ $A['name'] }}</b>
-                            @if( $A['name'] === "オプション" )
-                            <p>+￥{{ $A['plice'] }}</p>
-                            @else
-                            <p>￥{{ $A['plice'] }}</p>
+        @foreach( $wormwood_genres as $g )
+        <div class="card">
+            <h3 class="genre_title">{{ $g['name'] }}</h3>
+            <div>
+                @foreach( $wormwood_lists as $list )
+                    @if( $list['wormwood_genre_id'] === $g['id'] )
+                        @if( $list['wormwood_part_id'] !== null )
+                            @if( $list['name'] === '1回コース' )
+                            <h4 class="genre_title">{{ $list['wormwood_part']['name'] }}</h4>
                             @endif
-                        </div>
-
-                        @if( $A['name'] === "オプション" )
-                            <div class="option">
-                                <p>ダイエット薬草</p>
-                                <p>美肌薬草</p>
-                            </div>
                         @endif
-                    @endforeach
-                </div>
+                        <div class="flex line">
+                            <b>{{ $list['name'] }}</b>
+                            <p>￥{{ $list['pliceA'] }}</p>
+                        </div>
+                    @endif
+                @endforeach
             </div>
-            @endif
-
+        </div>
         @endforeach
     </div>
 

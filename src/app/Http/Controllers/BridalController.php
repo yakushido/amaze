@@ -3,43 +3,33 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\BridalA;
-use App\Models\BridalB;
-use App\Models\BridalC;
-use App\Models\BridalD;
 use App\Models\BridalGenre;
+use App\Models\BridalPart;
+use App\Models\Bridal;
 
 class BridalController extends Controller
 {
     public function index()
     {
         $bridal_genres = BridalGenre::all();
-        $bridal_As = BridalA::all();
-        $bridal_Bs = BridalB::all();
-        $bridal_Cs = BridalC::all();
-        $bridal_Ds = BridalD::all();
+        $bridal_parts = BridalPart::all();
+        $bridal_lists = Bridal::all();
         return view('bridal', compact(
             'bridal_genres',
-            'bridal_As',
-            'bridal_Bs',
-            'bridal_Cs',
-            'bridal_Ds',
+            'bridal_parts',
+            'bridal_lists',
         ));
     }
 
     public function admin_index()
     {
-        $bridal_As = BridalA::all();
-        $bridal_Bs = BridalB::all();
-        $bridal_Cs = BridalC::all();
-        $bridal_Ds = BridalD::all();
         $bridal_genres = BridalGenre::all();
+        $bridal_parts = BridalPart::all();
+        $bridal_lists = Bridal::all();
         return view('admin_bridal', compact(
-            'bridal_As',
-            'bridal_Bs',
-            'bridal_Cs',
-            'bridal_Ds',
             'bridal_genres',
+            'bridal_parts',
+            'bridal_lists',
         ));
     }
 

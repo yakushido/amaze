@@ -13,18 +13,8 @@ class DepilationGenre extends Model
         'name'
     ];
     
-    public function DepilationAs()
+    public function Depilations()
     {
-        return $this->hasMany('App\Models\DepilationA');
-    }
-    
-    public function DepilationBs()
-    {
-        return $this->hasMany('App\Models\DepilationB');
-    }
-    
-    public function DepilationCs()
-    {
-        return $this->hasMany('App\Models\DepilationC');
+        return $this->hasMany('App\Models\Depilation');
     }
 }

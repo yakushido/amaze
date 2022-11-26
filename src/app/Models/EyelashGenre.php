@@ -13,23 +13,8 @@ class EyelashGenre extends Model
         'name'
     ];
 
-    public function EyelashAs()
+    public function Eyelashs()
     {
-        return $this->hasMany('App\Models\EyelashA');
-    }
-
-    public function EyelashBs()
-    {
-        return $this->hasMany('App\Models\EyelashB');
-    }
-
-    public function EyelashCs()
-    {
-        return $this->hasMany('App\Models\EyelashC');
-    }
-
-    public function EyelashDs()
-    {
-        return $this->hasMany('App\Models\EyelashD');
+        return $this->hasMany('App\Models\Eyelash');
     }
 }

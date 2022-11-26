@@ -13,23 +13,8 @@ class NailGenre extends Model
         'name'
     ];
 
-    public function NailAs()
+    public function Nails()
     {
-        return $this->hasMany('App\Models\NailA');
-    }
-
-    public function NailBs()
-    {
-        return $this->hasMany('App\Models\NailB');
-    }
-
-    public function NailCs()
-    {
-        return $this->hasMany('App\Models\NailC');
-    }
-
-    public function NailDs()
-    {
-        return $this->hasMany('App\Models\NailD');
+        return $this->hasMany('App\Models\Nail');
     }
 }

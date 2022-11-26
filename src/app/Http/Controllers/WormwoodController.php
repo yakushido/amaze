@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\WormwoodA;
+use App\Models\Wormwood;
 use App\Models\WormwoodGenre;
 
 class WormwoodController extends Controller
@@ -11,20 +11,20 @@ class WormwoodController extends Controller
     public function index()
     {
         $wormwood_genres = WormwoodGenre::all();
-        $wormwoodAs = WormwoodA::all();
+        $wormwood_lists = Wormwood::all();
         return view('wormwood', compact(
             'wormwood_genres',
-            'wormwoodAs'
+            'wormwood_lists'
         ));
     }
 
     public function admin_index()
     {
         $wormwood_genres = WormwoodGenre::all();
-        $wormwoodAs = WormwoodA::all();
+        $wormwood_lists = Wormwood::all();
         return view('admin_wormwood', compact(
             'wormwood_genres',
-            'wormwoodAs'
+            'wormwood_lists'
         ));
     }
 

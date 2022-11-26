@@ -3,9 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Models\DepilationA;
-use App\Models\DepilationB;
-use App\Models\DepilationC;
+use App\Models\Depilation;
 use App\Models\DepilationGenre;
 use App\Models\DepilationPart;
 use App\Models\DepilationSDetail;
@@ -15,17 +13,13 @@ class DepilationController extends Controller
 {
     public function index()
     {
-        $depilation_As = DepilationA::all();
-        $depilation_Bs = DepilationB::all();
-        $depilation_Cs = DepilationC::all();
+        $depilation_lists = Depilation::all();
         $depilation_genres = DepilationGenre::all();
         $depilation_parts = DepilationPart::all();
         $depilation_s_details = DepilationSDetail::all();
         $depilation_l_details = DepilationLdetail::all();
         return view('depilation', compact(
-            'depilation_As',
-            'depilation_Bs',
-            'depilation_Cs',
+            'depilation_lists',
             'depilation_genres',
             'depilation_parts',
             'depilation_s_details',
@@ -35,17 +29,13 @@ class DepilationController extends Controller
 
     public function admin_index()
     {
-        $depilation_As = DepilationA::all();
-        $depilation_Bs = DepilationB::all();
-        $depilation_Cs = DepilationC::all();
+        $depilation_lists = Depilation::all();
         $depilation_genres = DepilationGenre::all();
         $depilation_parts = DepilationPart::all();
         $depilation_s_details = DepilationSDetail::all();
         $depilation_l_details = DepilationLdetail::all();
         return view('admin_depilation', compact(
-            'depilation_As',
-            'depilation_Bs',
-            'depilation_Cs',
+            'depilation_lists',
             'depilation_genres',
             'depilation_parts',
             'depilation_s_details',

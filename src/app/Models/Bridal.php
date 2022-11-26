@@ -11,7 +11,19 @@ class Bridal extends Model
 
     protected $fillable = [
         'name',
-        'part',
-        'plice'
+        'bridal_genre_id',
+        'bridal_part_id',
+        'pliceA',
+        'pliceB'
     ];
+    
+    public function bridal_genre()
+    {
+        return $this->belongsTo('App\Models\BridalGenre');
+    }
+
+    public function bridal_part()
+    {
+        return $this->belongsTo('App\Models\BridalPart');
+    }
 }

@@ -13,23 +13,8 @@ class BridalGenre extends Model
         'name'
     ];
     
-    public function BridalAs()
+    public function Bridals()
     {
-        return $this->hasMany('App\Models\BridalA');
-    }
-    
-    public function BridalBs()
-    {
-        return $this->hasMany('App\Models\BridalB');
-    }
-    
-    public function BridalCs()
-    {
-        return $this->hasMany('App\Models\BridalC');
-    }
-    
-    public function BridalDs()
-    {
-        return $this->hasMany('App\Models\BridalD');
+        return $this->hasMany('App\Models\Bridal');
     }
 }

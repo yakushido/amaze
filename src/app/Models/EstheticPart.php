@@ -10,6 +10,7 @@ class EstheticPart extends Model
     use HasFactory;
 
     protected $fillable = [
+        'id',
         'name'
     ];
     
@@ -21,5 +22,9 @@ class EstheticPart extends Model
     public function EstheticCs()
     {
         return $this->hasMany('App\Models\EstheticC');
+    }
+    public function items()
+    {
+        return $this->hasMany('App\Models\Esthetic', 'id', 'esthetic_part_id');
     }
 }

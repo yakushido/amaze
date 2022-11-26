@@ -34,207 +34,30 @@
     </div>
 
     <div>
-        @foreach( $esthetic_genres as $genre )
-            <!-- マッサージ -->
-            @if( $genre['id'] === 1 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    @foreach( $esthetic_As as $A )
-                        <div class="flex line">
-                            <b>{{ $A['name'] }}</b>
-                            <p>￥{{ $A['plice'] }}</p>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-            @endif
-
-            <!-- キャビテーション -->
-            @if( $genre['id'] === 2 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    <h4 class="genre_title">各Sパーツ</h4>
-                    <div class="detail_many">
-                        <p>二の腕</p>
-                        <p>腰まわり</p>
-                    </div>
-                    @foreach( $esthetic_Bs as $B )
-                        @if( $B['esthetic_part_id'] === 1 )
-                            <div class="flex line">
-                                <b>{{ $B['name'] }}</b>
-                                <p>￥{{ $B['plice'] }}</p>
-                            </div>
-                        @endif
-                    @endforeach
-                </div>
-                <div>
-                    <h4 class="genre_title">各Mパーツ</h4>
-                    <div class="detail_many">
-                        <p>お腹</p>
-                        <p>おしり</p>
-                        <p>ふくらはぎ</p>
-                    </div>
-                    @foreach( $esthetic_Bs as $B )
-                        @if( $B['esthetic_part_id'] === 2 )
-                            <div class="flex line">
-                                <b>{{ $B['name'] }}</b>
-                                <p>￥{{ $B['plice'] }}</p>
-                            </div>
-                        @endif
-                    @endforeach
-                </div>
-                <div>
-                    <h4 class="genre_title">各Lパーツ</h4>
-                    <div class="detail_many">
-                        <p>背中</p>
-                        <p>太もも</p>
-                    </div>
-                    @foreach( $esthetic_Bs as $B )
-                        @if( $B['esthetic_part_id'] === 3 )
-                            <div class="flex line">
-                                <b>{{ $B['name'] }}</b>
-                                <p>￥{{ $B['plice'] }}</p>
-                            </div>
-                        @endif
-                    @endforeach
-                </div>
-            </div>
-            @endif
-
-            <!-- ハイフ -->
-            @if( $genre['id'] === 3 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    <h4 class="genre_title">お腹</h4>
-                    <div class="flex">
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>シングル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 5 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>ダブル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 6 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="genre_title">太もも</h4>
-                    <div class="flex">
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>シングル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 7 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>ダブル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 8 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="genre_title">腰</h4>
-                    <div class="flex">
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>シングル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 9 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                        <div class="esthetic_card--hifu">
-                            <div class="detail_one">
-                                <h5>ダブル</h5>
-                            </div>
-                            @foreach( $esthetic_Cs as $C )
-                                @if( $C['esthetic_part_id'] === 10 )
-                                <div class="flex line">
-                                    <b>{{ $C['name'] }}</b>
-                                    <p>￥{{ $C['plice'] }}</p>
-                                </div>
-                                @endif
-                            @endforeach
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <h4 class="genre_title">二の腕</h4>
-                    <div class="esthetic_card--hifu">
-                        <div class="detail_one">
-                            <h5>シングル</h5>
-                        </div>
-                        @foreach( $esthetic_Cs as $C )
-                            @if( $C['esthetic_part_id'] === 11 )
-                            <div class="flex line">
-                                <b>{{ $C['name'] }}</b>
-                                <p>￥{{ $C['plice'] }}</p>
-                            </div>
+        @foreach( $esthetic_genres as $g )
+        <div class="card">
+            <h3 class="genre_title">{{ $g['name'] }}</h3>
+            <div>
+                @foreach( $esthetic_lists as $list )
+                    @if( $list['esthetic_genre_id'] === $g['id'] )
+                        @if( $list['esthetic_part_id'] !== null )
+                            @if( $list['name'] === '1回コース' )
+                            <h4 class="genre_title">{{ $list['esthetic_part']['name'] }}</h4>
                             @endif
-                        @endforeach
-                    </div>
-                </div>
-            </div>
-            @endif
-            <!-- フェイシャルエステ -->
-            @if( $genre['id'] === 4 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    @foreach( $esthetic_Ds as $D )
+                        @endif
                         <div class="flex line">
-                            <b>{{ $D['name'] }}</b>
-                            <p>￥{{ $D['plice'] }}</p>
+                            <b>{{ $list['name'] }}</b>
+                            <p>￥{{ $list['pliceA'] }}</p>
                         </div>
-                    @endforeach
-                </div>
+                    @endif
+                @endforeach
             </div>
-            @endif
+        </div>
         @endforeach
     </div>
+
 </div>
+
 <script>
     // 画面スクロール
         const genres = document.querySelectorAll('.top_menu_wrap>div');

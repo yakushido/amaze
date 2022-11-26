@@ -34,101 +34,25 @@
     </div>
     
     <div>
-        @foreach( $bridal_genres as $genre )
-            
-            <!-- カスタムメニュー -->
-            @if( $genre['id'] === 1 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div class="detail_one">
-                    <p>お客様、お一人お一人合ったプランでのメニューになりますので、まずはお問い合わせ下さい</p>
-                </div>
-                <div>
-                    @foreach( $bridal_As as $A )
-                        <div class="flex line bridal_line_A">
-                            @if( $A['id'] === 2 )
-                            <div>
-                                <p>ジェルネイル1回 or マツエク付き</p>
-                                <p>プレゼント用ギフト券付き</p>
-                            </div>
-                            <p>￥{{ $A['plice'] }}</p>
-                            @elseif( $A['id'] === 3 )
-                            <div>
-                                <p>ジェルネイル1回 or マツエク付き</p>
-                                <p>プレゼント用ギフト券付き</p>
-                            </div>
-                            <p>￥{{ $A['plice'] }}</p>
-                            @else
-                            <b></b>
-                            <p>￥{{ $A['plice'] }}</p>
-                            @endif
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-            @endif
-
-            <!-- 1day -->
-            @if( $genre['id'] === 2 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div class="detail_bridal_B">
-                    <p>①上半身リンパ45分</p>
-                    <p>②シェービングFACE</p>
-                    <p>③シェービングBODY（背中・えり足・二の腕）</p>
-                    <p>④美白 or 美肌 BODY</p>
-                    <p>⑤顔脱毛 or 美肌フェイシャル</p>
-                </div>
-                <div>
-                    @foreach( $bridal_Bs as $B )
+        @foreach( $bridal_genres as $g )
+        <div class="card">
+            <h3 class="genre_title">{{ $g['name'] }}</h3>
+            <div>
+                @foreach( $bridal_lists as $list )
+                    @if( $list['bridal_genre_id'] === $g['id'] )
                         <div class="flex line">
-                            <b></b>
-                            <p>￥{{ $B['plice'] }}</p>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-            @endif
-
-            <!-- マタニティプラン -->
-            @if( $genre['id'] === 3 )
-            <div class="card">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    @foreach( $bridal_Cs as $C )
-                        <div class="flex line bridal_line_C">
-                            @if( $C['id'] === 2 )
                             <div>
-                                <p>プレゼント用ギフト券付き</p>
+                                <b>{{ $list['name'] }}</b>
+                                @if( $list['bridal_part_id'] !== null )
+                                <p>({{ $list['bridal_part']['name'] }})</p>
+                                @endif
                             </div>
-                            <p>￥{{ $C['plice'] }}</p>
-                            @else
-                            <b></b>
-                            <p>￥{{ $C['plice'] }}</p>
-                            @endif
+                            <p>￥{{ $list['pliceA'] }}</p>
                         </div>
-                    @endforeach
-                </div>
+                    @endif
+                @endforeach
             </div>
-            @endif
-
-            <!-- 単品メニュー -->
-            @if( $genre['id'] === 4 )
-            <div class="card bridal_card_D">
-                <h3 class="genre_title">{{ $genre['name'] }}</h3>
-                <div>
-                    @foreach( $bridal_Ds as $D )
-                        <div class="flex bridal_D_menu">
-                            <div>
-                                <b>{{ $D['name'] }}</b>
-                                <p>({{ $D['part'] }})</p>
-                            </div>
-                            <p>￥{{ $D['plice'] }}</p>
-                        </div>
-                    @endforeach
-                </div>
-            </div>
-            @endif
+        </div>
         @endforeach
     </div>
 

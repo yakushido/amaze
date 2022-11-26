@@ -12,4 +12,9 @@ class WormwoodGenre extends Model
     protected $fillable = [
         'name'
     ];
+
+    public function Wormwoods()
+    {
+        return $this->hasMany('App\Models\Wormwood');
+    }
 }
