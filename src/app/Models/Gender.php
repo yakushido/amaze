@@ -4,17 +4,13 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Menu;
 
 class Gender extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'name'
+        'gender'
     ];
-
-    public function Campaigns()
-    {
-        return $this->hasMany('App\Models\Campaign');
-    }
 }

@@ -14,36 +14,17 @@ class DatabaseSeeder extends Seeder
     public function run()
     {
         $this->call([
+            GendersTableSeeder::class,
+            GenresTableSeeder::class,
             CategoriesTableSeeder::class,
+            PartsTableSeeder::class,
+            MenusTableSeeder::class,
+            
+            CampaignsTableSeeder::class,
+
             UsersTableSeeder::class,
 
-            ShopImagesTableSeeder::class,
-
-            EyelashGenresTableSeeder::class,
-            EyelashesTableSeeder::class,
-
-            DepilationGenresTableSeeder::class,
-            DepilationPartsTableSeeder::class,
-            DepilationsTableSeeder::class,
-            DepilationSDetailsTableSeeder::class,
-            DepilationLDetailsTableSeeder::class,
-
-            EstheticGenresTableSeeder::class,
-            EstheticPartsTableSeeder::class,
-            EstheticsTableSeeder::class,
-
-            WormwoodGenresTableSeeder::class,
-            WormwoodsTableSeeder::class,
-
-            BridalGenresTableSeeder::class,
-            BridalPartsTableSeeder::class,
-            BridalsTableSeeder::class,
-
-            NailGenresTableSeeder::class,
-            NailsTableSeeder::class,
-        
-            GendersTableSeeder::class,
-            CampaignsTableSeeder::class
+            PartDetailsTableSeeder::class
         ]);
     }
 }

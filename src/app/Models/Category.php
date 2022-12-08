@@ -4,17 +4,30 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\Menu;
+use App\Models\Genre;
 
 class Category extends Model
 {
     use HasFactory;
 
     protected $fillable = [
-        'name'
+        'category',
+        'picture',
+        'genre_id'
     ];
-
-    public function ShopImages()
+    
+    public function menu()
     {
-        return $this->hasMany('App\Models\ShopImage');
+        return $this->hasOne(Menu::class);
+    }
+    public function menus()
+    {
+        return $this->hasMany(Menu::class);
+    }
+    
+    public function genre()
+    {
+        return $this->belongsTo(Genre::class);
     }
 }

@@ -1,4 +1,4 @@
-/* All */
+
 .men{
     background-color: #BCEAD5;
 }
@@ -8,103 +8,178 @@
 .both{
     background-color: #D2DAFF;
 }
+.campaign{
+    width: 800px;
+    margin: auto;
+}
 .campaign_ul{
-    margin: 10px;
-    padding-bottom: 5px;
+    width: 90%;
+    margin: auto;
+    padding: 10px 20px;
     border-bottom: 2px solid #ACACAC;
 }
-.campaign_ul_first{
-    width: 80%;
-    margin: 5px auto;    
+.campaign_title>p{
+    padding: 5px;
+    border-radius: 5px;
+    margin-right: 10px;
 }
-.campaign_ul_first>a{
-    text-decoration: none;
-}
-.campaign_ul_first>a>span{
+.campaign_title>a>span{
     border: 1px solid #c0906b;
     border-radius: 15px;
     font-size: 10px;
     padding: 0 5px;
     background-color: #FFC090;
 }
-.campaign_ul_second{
+.campaign_term{
     display: flex;
-    justify-content: space-around;
-    margin-bottom: 5px;
-}
-.campaign_ul_second>p:first-child{
-    display: flex;
+    justify-content: end;
     align-items: center;
+    margin-top: 5px;
 }
-.campaign_ul_second>p:last-child{
-    border-radius: 15px;
-    padding: 5px 10px;
+.campaign_term>div{
+    display: flex;
 }
 
-/* admin_update */
-.admin_campaign_title{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* campaign_card */
+.campaign_card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    margin: 20px auto;
+    padding: 10px;
+    width: 800px;
 }
-.admin_campaign_title>input{
-    height: 30px;
-    margin-left: 10px;
-    width: 70%;
+.campaign_card>h3{
+    padding: 20px;
     text-align: center;
 }
-.admin_campaign>div{
-    margin: 10px;
-    align-items: center;
+.campaign_card_term>div{
+    display: flex;
+    margin-left: 10px;
 }
-.admin_campaign_title>input,
-.admin_campaign input,
-.admin_campaign select,
-.admin_campaign_detail textarea{
+.campaign_card_gender>p{
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 20px 10px;
+}
+.campaign_card_detail{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.campaign_card_detail>h4{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.campaign_card_detail>p{
+    padding: 5px;
+    width: 90%;
+    margin: auto;
+    overflow-wrap: break-word;
+}
+
+/* ---------------------- */
+
+/* campaign_add_card */
+.campaign_add_card{
+    width: 800px;
+    margin:auto;
+}
+.campaign_add_card--date span{
+    margin-left: 10px;
+}
+/* ---------------------- */
+
+/* campaign_update_card */
+.campaign_update_top{
+    background-color: #ACACAC;
+    color: #fff;
+}
+.campaign_update_card>form>h3{
+    text-align: center;
+    padding: 20px;
+
+}
+.campaign_update_card>form>h3 input{
+    width: 80%;
+    height: 30px;
+    margin-left: 10px;
     border: none;
     border-radius: 5px;
     box-shadow: 1px 1px 5px #c0c0c0;
-}
-.admin_campaign input,
-.admin_campaign select{
-    height: 30px;
-    margin-left: 10px;
-    width: 100px;
     text-align: center;
 }
-.admin_campaign_detail_title{
-    padding: 10px 0;
+.campaign_update_term>h4{
+    margin-right: 10px;
 }
-.admin_campaign_detail{
-    width: 90%;
-    margin: 20px auto;
-}
-.admin_campaign_detail textarea{
-    width: 100%;
-    height: 100px;
-    padding: 10px;
-}
-
-
-/* Campaign.blade */
-.campaign>div{
-    margin: 10px;
-}
-.campaign>div>p{
-    border-radius: 15px;
-    padding: 10px;
-}
-.campaign_term>p{
-    background-color: #FFFAD7;
-}
-.campaign_detail>p{
-    width: 90%;
+.campaign_update_term input{
+    width: 150px;
+    height: 30px;
+    margin-left: 10px;
     border: none;
+    border-radius: 5px;
     box-shadow: 1px 1px 5px #c0c0c0;
-    margin: 10px auto;
+    text-align: center;
+}
+.campaign_update_term span{
+    margin-left: 10px;
+}
+.campaign_update_gender{
+    margin: 20px;
+}
+.campaign_update_gender select{
+    width: 100px;
+    height: 30px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.campaign_update_gender>h4{
+    margin-right: 10px;
+}
+.campaign_update_detail{
+    text-align: center;
+}
+.campaign_update_detail textarea{
+    width: 90%;
+    height: 200px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    margin: 20px;
+}
+/* ----------------------- */
+
+.campaign_term_title{
+    text-align: center;
+    padding: 30px 0 20px;
 }
 
-/* admin_add */
-.admin_add_form_date input{
-    margin-right: 5px;
+
+@media screen and (max-width:769px){
+    
+    .campaign{
+        width: 90%;
+    }
+    .campaign_card,
+    .campaign_update_card{
+        width: 90%;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .campaign{
+        width: 90%;
+    }
+    .campaign_card,
+    .campaign_update_card{
+        width: 90%;
+    }
+    .campaign_term{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
 }

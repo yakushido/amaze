@@ -19,6 +19,6 @@ class Campaign extends Model
 
     public function gender()
     {
-        return $this->belongsTo('App\Models\Gender');
+        return $this->belongsTo(Gender::class);
     }
 }

@@ -1,0 +1,30 @@
+.stuff_campaign{
+    display: flex;
+}
+.stuff_campaign>a{
+    position: relative;
+    width: 50vw;
+    height: 100px;
+}
+.stuff_list>h3,
+.campaign_list>h3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.stuff_list{
+    background-color: #F3F3F3;
+}
+.campaign_list{
+    background-color: #FAEEAB;
+}
+@media screen and (max-width:769px){
+    .menu h3{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    
+}

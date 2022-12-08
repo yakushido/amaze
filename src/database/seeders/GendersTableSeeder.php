@@ -17,17 +17,17 @@ class GendersTableSeeder extends Seeder
         DB::table('genders')->insert([
             [
                 'id' => 1,
-                'name' => '男性'
+                'gender' => 'Men`s'
             ],
             [
                 'id' => 2,
-                'name' => '女性'
+                'gender' => 'Women`s'
             ],
             [
                 'id' => 3,
-                'name' => '男女共通'
+                'gender' => 'Both'
             ],
-            
         ]);
+
     }
 }

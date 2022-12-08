@@ -20,10 +20,7 @@ class RegisteredUserController extends Controller
      */
     public function create()
     {
-        $users = User::all();
-        return view('auth.register', compact(
-            'users'
-        ));
+        return view('auth.register');
     }
 
     /**
@@ -52,8 +49,6 @@ class RegisteredUserController extends Controller
 
         Auth::login($user);
 
-        return redirect()
-            ->route('register')
-            ->withStatus('登録しました');
+        return redirect(RouteServiceProvider::HOME);
     }
 }

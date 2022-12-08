@@ -1,0 +1,42 @@
+.genres{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.genre{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100%;
+    width: 250px;
+    aspect-ratio: 4 / 2;
+    margin: 10px;
+}
+.genre>div:first-of-type{
+    position: absolute;
+    text-align: center;
+    bottom: 5%;
+    z-index: 2;
+}
+.genre>div:last-of-type{
+    position: absolute;
+    height: 100%;
+    right: 0;
+}
+.genre>div:last-child>img{
+    height: 100%;
+    aspect-ratio: 4 / 3;
+}
+
+@media screen and (max-width:769px){
+    .genre>div:first-of-type{
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .genre{
+        width: 100%;
+    }
+}

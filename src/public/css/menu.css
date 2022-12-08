@@ -1,0 +1,290 @@
+.main_menus{
+    width: 100%;
+    margin: auto;
+}
+.course{
+    display: flex;
+    justify-content: space-between;
+}
+.course>b{
+    display: flex;
+    align-items: center;
+}
+.course>div{
+    display: flex;
+    align-items: center;
+}
+.course>div:first-child>a{
+    width: 20px;
+    margin-right: 10px;
+}
+.course>div:first-child>a>img{
+    width: 100%;
+}
+.part_title{
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #faeeab;
+    border-radius: 15px;
+}
+.line{
+    position: relative;
+    margin: 20px 5px 20px;
+}
+.line::after{
+    position: absolute;
+    content: '';
+    top: 0.95em;
+    left: 0;
+    right: 0;
+    display: block;
+    height: 1px;
+    background-color: #D7D2CA;
+}
+.line>b,
+.line>p,
+.line>div{
+    z-index: 2;
+    padding: 5px 10px 0 5px;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+}
+.line>div>span{
+    padding: 0 5px;
+}
+
+.admin_menu{
+    justify-content: center;
+}
+/* menu_flex */
+.menu_flex{
+    display: flex;
+}
+.menu_flexA{
+    width: 30%;
+}
+.menu_flexB{
+    width: 70%;
+}
+/* -------------------------------- */
+
+/* top_category */
+.top_categories{
+    margin: 10px;
+}
+.top_category{
+    width: 100%;
+}
+.top_category>h2{
+    position: absolute;
+}
+.top_category>div{
+    width: 100%;
+}
+.top_category>div>img{
+    width: 100%;
+    aspect-ratio: 4 / 3;
+}
+/* ------------------------- */
+
+/* priceB */
+    .form_menu_content--price>span{
+        margin-top: 10px;
+        padding-left: 20px;
+    }
+    .priceB{
+        display: none;
+    }
+    .priceB_active{
+        display: block;
+    }
+/* ------------------------- */
+
+/* add_card */
+.add_cardA{
+    width: 500px;
+    margin: 20px auto;
+}
+.add_cardB{
+    width: 300px;
+    margin: 20px;
+}
+.add_cardB>h2{
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+    color: black;
+}
+.add_cardC{
+    width: 300px;
+    margin: 20px
+}
+.add_cardC>h2{
+    background-color: #FAEEAB;
+    color: black;
+}
+.add_cardD{
+    width: 500px;
+    margin: 20px;
+}
+.add_category_title{
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+    padding: 10px;
+    text-align: left;
+}
+.add_category_title select{
+    background-color: #F3F3F3;
+    border: none;
+    height: 30px;
+}
+.add_part_title{
+    display: inline-block;
+    background-color: #FAEEAB;
+    border-radius: 15px;
+    padding: 5px 10px;
+    margin: 10px 10px 0;
+}
+.add_part_title select{
+    background-color: #FAEEAB;
+    border: none;
+    height: 30px;
+}
+.add_cardD--menu,
+.add_cardD--price{
+    justify-content: center;
+}
+/* --------------------- */
+
+/* menu */
+.menu>div{
+    display: flex;
+    justify-content: space-around;
+}
+.menu_gender{
+    width: 40%;
+    aspect-ratio: 4 / 3;
+    position: relative;
+}
+.menu_gender>div{
+    position: absolute;
+}
+.menu_gender>h3{
+    position: absolute;
+    z-index: 2;
+    bottom: 20%;
+    left: 10%;
+}
+/* -------------------------------- */
+
+/* gradation */
+.gradation{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.gradation::after{
+    position: absolute;
+    content: '';
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    box-shadow: inset 0 0 10px 15px #F0EBE3;
+}
+.gradation img{
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 4 / 3;
+}
+/* --------------------------------- */
+
+/* part_detail */
+.part_detail>ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.part_detail>ul>li{
+    margin: 5px 10px;
+    padding: 5px 10px;
+    border-radius: 15px;
+    border: 0.5px solid black;
+}
+/* ---------------------------------- */
+@media screen and (max-width:769px){
+    .menu_gender{
+        width: 45%;
+    }
+    .main_menus{
+        width: 100%;
+    }
+    .course p,
+    .course b{
+        font-size: 13px;
+    }    
+    /* menu_flex */
+    .menu_flex{
+        flex-direction: column;
+    }
+    .menu_flexA{
+        width: 100%;
+    }
+    .menu_flexB{
+        width: 100%;
+    }
+    /* -------------------------------- */
+    .top_categories{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top_category{
+        width: 200px;
+        margin: 5px;
+    }
+}
+
+@media screen and (max-width:426px) {
+    .top_category{
+        width: 100%;
+    }
+    .menu>div{
+        flex-direction: column;
+    }
+    .menu_gender{
+        width: 100%;
+        aspect-ratio: 4 / 2;
+        display: flex;
+    }
+    .menu>div>a:first-of-type>div{
+        right: 0;
+    }
+    .menu>div>a:first-of-type>h3{
+        bottom: 20%;
+        left: 15%;
+    }
+    .menu>div>a:last-of-type>div{
+        left: 0;
+    }
+    .menu>div>a:last-of-type>h3{
+        bottom: 20%;
+        left: 70%;
+    }
+    .gradation{
+        height: 100%;
+        aspect-ratio: 4 / 3;
+    }
+
+    .top_categories{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .top_category{
+        width: 45%;
+        margin: 5px;
+    }
+}

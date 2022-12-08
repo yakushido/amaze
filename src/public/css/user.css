@@ -1,0 +1,78 @@
+/* user_card */
+.user_card{
+    width: 800px;
+    margin: auto;
+}
+/* --------------------------------- */
+
+/* stuff_card */
+.stuff_cards{
+    width: 800px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+}
+.stuff_cards>div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.stuff_card{
+    width: 30%;
+    margin: 10px;
+    border: 1px solid black;
+}
+.stuff_card>div{
+    width: 100%;
+}
+.stuff_card>div>img{
+    width: 100%;
+    aspect-ratio: 3 / 4;
+}
+.stuff_card>h3{
+    padding: 10px;
+}
+.stuff_card>p{
+    width: 90%;
+    margin: 10px auto;
+}
+/* --------------------------------- */
+
+.users{
+    display: flex;
+    white-space:nowrap;
+    overflow:auto;
+}
+.user{
+    border: 1px solid #999;
+    margin: 10px;
+    width: 200px;
+    height: 100%;
+}
+.admin_users{
+    display: flex;
+    flex-wrap: wrap;
+}
+.user{
+    width: 200px;
+    margin: 20px;
+    border: 0.5px solid black;
+}
+.user>div{
+    width: 100%;
+    height: auto;
+}
+.user img{
+    width: 100%;
+    aspect-ratio: 3 / 4;
+}
+.user>h3{
+    text-align: center;
+    padding: 10px;
+    background-color: #F3F3F3;
+}
+.user>p{
+    padding: 10px;
+}
+

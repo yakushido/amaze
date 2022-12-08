@@ -1,0 +1,101 @@
+.category{
+    width: 700px;
+    margin: auto;
+}
+/* category_lists */
+    .category_lists{
+        text-align: center;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        margin-bottom: 20px;
+    }
+    .category_lists>div:first-child{
+        background-color: #ACACAC;
+        color: #fff;
+        border-radius: 5px 5px 0 0;
+    }
+    .category_lists>div:first-child>div{
+        padding: 20px;
+    }
+    .category_lists>div:first-child>div>p{
+        margin-top: 5px;
+    }
+    .category_lists>div:last-child{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .category_list{
+        width: 200px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        margin: 10px;
+    }
+    .category_list>div:first-child,
+    .category_card_title{
+        background-color: #F3F3F3;
+        border-left: 3px solid #ACACAC;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+    }
+    .category_list>div>a{
+        width: 20px;
+    }
+    .category_list>div>a>img{
+        width: 100%;
+    }
+    .category_list img{
+        width: 100%;
+    }
+/* --------------------------- */
+
+/* category_update_card */
+.category_update_card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    width: 700px;
+    margin: auto;
+}
+.category_update_card>form>h3{
+    background-color: #F3F3F3;
+    border-left: 3px solid #ACACAC;
+    border-radius: 5px 5px 0 0;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.category_update_card>form>h3>input{
+    height: 30px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    background-color: #F3F3F3;
+}
+.category_update_card>form>h3>a{
+    width: 20px;
+}
+.category_update_card>form>h3>a>img{
+    width: 100%;
+}
+.category_update_card>form>div:last-child{
+    text-align: center;
+    margin-top: 20px;
+}
+.category_update_card>form>div:last-child button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #90f39f;
+    border-radius: 5px;
+    background-color: #deffd7;
+    margin-bottom: 10px;
+}
+
+/* ---------------------------- */
