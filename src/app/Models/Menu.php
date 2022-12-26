@@ -18,6 +18,10 @@ class Menu extends Model
         'category_id',
         'gender_id',
         'part_id',
+        'wavy',
+        'plus',
+        'finger',
+        'fingers'
     ];
 
     public function category()

@@ -1,13 +1,13 @@
 /* user_card */
 .user_card{
-    width: 800px;
+    width: 700px;
     margin: auto;
 }
 /* --------------------------------- */
 
 /* stuff_card */
 .stuff_cards{
-    width: 800px;
+    width: 700px;
     margin: 20px auto;
     background-color: #fff;
     border-radius: 5px;
@@ -32,6 +32,16 @@
 }
 .stuff_card>h3{
     padding: 10px;
+    display: flex;
+    align-items: center;
+}
+.stuff_card>h3>a{
+    width: 20px;
+    margin-right: 5px;
+}
+.stuff_card>h3>a img{
+    width: 100%;
+
 }
 .stuff_card>p{
     width: 90%;
@@ -76,3 +86,160 @@
     padding: 10px;
 }
 
+/* user_add_card */
+.user_add_card{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    width: 700px;
+    margin: 20px auto;
+}
+.user_add_card>h2{
+    text-align: center;
+    padding: 20px;
+    border-radius: 5px 5px 0 0;
+    background-color: #cbcbcb;
+    color: #fff;
+}
+.user_add_input{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+.user_add_card>form{
+    padding-top: 10px;
+}
+.user_add_input>input{
+    height: 30px;
+    margin-left: 10px;
+    width: 250px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+    text-align: center;
+}
+.user_add_textarea{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.user_add_textarea>h3{
+    color: #bbbbbb;
+}
+.user_add_textarea>textarea{
+    height: 100px;
+    padding: 5px;
+    margin-top: 10px;
+    width: 80%;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px #c0c0c0;
+}
+.user_add_card>form>div:last-child{
+    text-align: center;
+}
+.user_add_card>form>div:last-child button{
+    padding: 5px 30px;
+    border: none;
+    box-shadow: 1px 1px 5px #90f39f;
+    border-radius: 5px;
+    background-color: #deffd7;
+    margin: 10px;
+}
+/* ------------------------------------------ */
+
+/* user_update_card */
+    .user_update_card{
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        width: 700px;
+        margin: 20px auto;
+    }
+    .user_update_card>form{
+        padding-top: 10px;
+    }
+    .user_update_card>div{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 5px 5px 0 0;
+        background-color: #CBCBCB;
+    }
+    .user_update_card>div>h2{
+        padding: 20px;
+        text-align: left;
+        color: #fff;
+    }
+    .user_update_card>div>a{
+        width: 20px;
+        margin-right: 20px;
+    }
+    .user_update_card>div>a>img{
+        width: 100%;
+    }
+    .user_update_input{
+        display: flex;
+        justify-content: center;
+        margin: 10px;
+    }
+    .user_update_input>input{
+        height: 30px;
+        margin-left: 10px;
+        width: 250px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        text-align: center;
+    }
+    .user_update_textarea{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .user_update_textarea>h3{
+        color: #bbbbbb;
+    }
+    .user_update_textarea>textarea{
+        height: 100px;
+        padding: 5px;
+        margin-top: 10px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+    }
+    .user_update_card>form>div:last-child{
+        text-align: center;
+    }
+    .user_update_card>form>div:last-child button{
+        padding: 5px 30px;
+        border: none;
+        box-shadow: 1px 1px 5px #90f39f;
+        border-radius: 5px;
+        background-color: #deffd7;
+        margin: 10px;
+    }
+/* ---------------------------------------- */
+
+
+@media screen and (max-width:769px){
+    .user_card,
+    .stuff_cards,
+    .user_update_card,
+    .user_add_card{
+        width: 80%;
+    }
+    .stuff_card{
+        width: 150px;
+    }
+}
+
+@media screen and (max-width:415px) {
+    .user_card,
+    .stuff_cards,
+    .user_update_card,
+    .user_add_card{
+        width: 90%;
+    }
+}

@@ -114,7 +114,10 @@
 }
 
 /* main */
-
+.menu{
+    width: 700px;
+    margin: 20px auto;
+}
 /* menu */
 
 /* stuff */

@@ -12,7 +12,8 @@ class Genre extends Model
 
     protected $fillable = [
         'e-name',
-        'j-name'
+        'j-name',
+        'picture'
     ];
 
     public function category()

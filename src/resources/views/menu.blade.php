@@ -7,29 +7,60 @@
     <link rel="stylesheet" href="{{ asset('css\menu.css') }}">
 @endif
     
-    <div class="top_title">
-        <h1>{{ $genre['e-name'] }}</h1>
-        <p>【{{ $genre['j-name'] }}】</p>
-    </div>
 
+@foreach( $categories as $cat )
+            @if( $cat['menus']->contains('gender_id', $gender['id']) )
+            <p>{{ $cat->count }}</p>
+                @endif
+            @endforeach
 <div class="menu_flex">
 
-    <div class="menu_flexA top_categories">
-        @foreach( $categories as $cat )
-            @if( $cat['menus']->contains('gender_id', $gender['id']) )
-            <div class="top_category">
-                <h2>{{ $cat['category'] }}</h2>
-                <div>
-                    <img src="{{ Storage::url($cat['picture']) }}" alt="">
-                </div>
-            </div>
-            @endif
-        @endforeach
+    <div class="menu_top">
+
+        <div class="menu_top_title">
+            <h1>{{ $genre['e-name'] }}</h1>
+        </div>
+        
+        <div class="menu_top_image">
+            @foreach( $categories as $cat )
+                @if( $cat['menus']->contains('gender_id', $gender['id']) && $cat['genre_id'] === 1 || $cat['genre_id'] === 2 || $cat['genre_id'] === 5 || $cat['genre_id'] === 6 )
+                    <div class="menu_paturn--4">
+                        <div>
+                            <img src="{{ Storage::url($cat['picture']) }}" alt="">
+                        </div>
+                        <div>
+                            <h2>{{ $cat['category'] }}</h2>
+                        </div>
+                    </div>
+                @endif
+                @if( $cat['menus']->contains('gender_id', $gender['id']) && $cat['genre_id'] === 3 )
+                    <div class="menu_paturn--3">
+                        <div>
+                            <img src="{{ Storage::url($cat['picture']) }}" alt="">
+                        </div>
+                        <div>
+                            <h2>{{ $cat['category'] }}</h2>
+                        </div>
+                    </div>
+                @endif
+                @if( $cat['menus']->contains('gender_id', $gender['id']) && $cat['genre_id'] === 4 )
+                    <div class="menu_paturn--1">
+                        <div>
+                            <img src="{{ Storage::url($cat['picture']) }}" alt="">
+                        </div>
+                        <div>
+                            <h2>{{ $cat['category'] }}</h2>
+                        </div>
+                    </div>
+                @endif
+            @endforeach
+        </div>
+
     </div>
 
     <div class="menu_flexB">
         @if( Auth::check() )
-        <div class="flex admin_menu">
+        <div class="admin_menu">
             <div>
     
                 <div class="add_card add_cardB">
@@ -44,17 +75,30 @@
                         enctype="multipart/form-data"
                         method="POST">
                         @csrf
+
+                        <div>
+                            @if($errors->has('category_input'))
+                                <p class="message">{{$errors -> first('category_input')}}</p>
+                            @endif
+                        </div>
+
                         <div class="flex--center">
                             <div class="inputs_icon">
                                 <img src="/storage/icon_category.png" alt="">
                             </div>
                             <input type="text"
-                                name="category"
+                                name="category_input"
                                 placeholder="カテゴリーを入力してください">
                             <input type="text"
                                 name="genre"
                                 value="{{ $genre['id'] }}"
                                 hidden>
+                        </div>
+
+                        <div>
+                            @if($errors->has('picture'))
+                                <p class="message">{{$errors -> first('picture')}}</p>
+                            @endif
                         </div>
                         <div class="input_file">
                             <label class="input_file_label">
@@ -77,13 +121,21 @@
                             <a href="/parts">lists</a>
                         </span>
                     </h2>
-                    <form action="">
+                    <form action="{{ route('parts.store') }}" method="POST">
+                        @csrf
+                        
+                        <div>
+                            @if($errors->has('part_input'))
+                                <p class="message">{{$errors -> first('part_input')}}</p>
+                            @endif
+                        </div>
+
                         <div class="flex--center">
                             <div class="inputs_icon">
                                 <img src="/storage/icon_parts.png" alt="">
                             </div>
                             <input type="text"
-                                name="パーツ"
+                                name="part_input"
                                 placeholder="パーツを入力してください">
                         </div>
                         <div>
@@ -96,18 +148,30 @@
     
             <div class="add_card add_cardD">
                 <h2>メニューの追加フォーム</h2>
+
                 <form action="{{ route('menu.store') }}" method="POST">
                     @csrf
-                    <h3 class="add_category_title">
-                        <select name="category" id="">
+                    <h3 class="add_category_title flex">
+                        <select name="category_select" id="">
                             <option value="">カテゴリーを選択してください</option>
                             @foreach( $categories as $cat )
-                                <option value="{{ $cat['id'] }}">{{ $cat['category'] }}</option>
+                            <option value="{{ $cat['id'] }}">{{ $cat['category'] }}</option>
                             @endforeach
                         </select>
+                        
+                        @if($errors->has('category_select'))
+                            <p class="message_in_title">{{$errors -> first('category_select')}}</p>
+                        @endif
                     </h3>
+
+                    <div>
+                        @if($errors->has('part_select'))
+                            <p class="message">{{$errors -> first('part_select')}}</p>
+                        @endif
+                    </div>
+
                     <h3 class="add_part_title">
-                        <select name="part" id="">
+                        <select name="part_select" id="">
                             <option value="">パーツを選択してください</option>
                             @foreach( $parts as $part )
                                 <option value="{{ $part['id'] }}">{{ $part['part'] }}</option>
@@ -118,14 +182,32 @@
                         <input type="text"
                             name="gender" value="{{ $gender['id'] }}" hidden>
                     </div>
+
+                    <div>
+                        @if($errors->has('menu_input'))
+                            <p class="message">{{$errors -> first('menu_input')}}</p>
+                        @endif
+                    </div>
+
                     <div class="flex add_cardD--menu">
+
                         <div class="inputs_icon">
                             <img src="/storage/icon_menu.png" alt="">
                         </div>
                         <input type="text"
-                            name="menu"
+                            name="menu_input"
                             placeholder="メニュー名を入力してください">
                     </div>
+
+                    <div>
+                        @if($errors->has('priceA'))
+                            <p class="message">{{$errors -> first('priceA')}}</p>
+                        @endif
+                        @if($errors->has('priceB'))
+                            <p class="message">{{$errors -> first('priceB')}}</p>
+                        @endif
+                    </div>
+
                     <div class="flex add_cardD--price">
                         <div class="inputs_icon" id="priceB_toggle">
                             <img src="/storage/icon_price.png" alt="">
@@ -140,6 +222,38 @@
                                         name="priceB"
                                         placeholder="価格を入力してください">
                                 </span>
+                        </div>
+                    </div>
+                    <div class="price_grant">
+                        <div>
+                            <div>
+                                <h4>前方付与</h4>
+                            </div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" name="plus" id="plus" value="+">
+                                    <label for="plus">+</label>
+                                </div>
+                            </div>
+                        </div>
+                        <div>
+                            <div>
+                                <h4>後方付与</h4>
+                            </div>
+                            <div>
+                                <div>
+                                    <input type="checkbox" name="wavy" id="wavy" value="~">
+                                    <label for="wavy">~</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="finger" id="finger" value="/本">
+                                    <label for="finger">/本</label>
+                                </div>
+                                <div>
+                                    <input type="checkbox" name="fingers" id="fingers" value="/本数問わず">
+                                    <label for="fingers">/本問わず</label>
+                                </div>
+                            </div>
                         </div>
                     </div>
     
@@ -198,12 +312,49 @@
                                                 <b>{{ $menu['menu'] }}</b>
                                             </div>
                                             @if( $menu['priceB'] === null )
-                                            <p>￥{{ number_format($menu['priceA']) }}</p>
+                                            <p>
+                                                @if( $menu['plus'] != null )
+                                                    {{ $menu['plus'] }}
+                                                @endif
+
+                                                ￥{{ number_format($menu['priceA']) }}
+
+                                                @if( $menu['wavy'] != null )
+                                                    {{ $menu['wavy'] }}
+                                                @endif
+                                                        
+                                                @if( $menu['finger'] != null || $menu['fingers'] != null )
+                                                    @if( $menu['finger'] != null && $menu['fingers'] === null )
+                                                        {{ $menu['finger'] }}
+                                                    @elseif( $menu['finger'] === null && $menu['fingers'] != null )
+                                                        {{ $menu['fingers'] }}
+                                                    @endif
+                                                @endif
+                                            </p>
                                             @else
                                             <div>
-                                                <p>￥{{ number_format($menu['priceA']) }}</p>
+                                                @if( $menu['plus'] != null )
+                                                {{ $menu['plus'] }}
+                                                @endif
+                                                <p>
+                                                    ￥{{ number_format($menu['priceA']) }}
+                                                </p>
                                                 <span>~</span>
-                                                <p>￥{{ number_format($menu['priceB']) }}</p>
+                                                <p>
+                                                    ￥{{ number_format($menu['priceB']) }}
+
+                                                    @if( $menu['wavy'] != null )
+                                                        {{ $menu['wavy'] }}
+                                                    @endif
+                                                        
+                                                    @if( $menu['finger'] != null || $menu['fingers'] != null )
+                                                        @if( $menu['finger'] != null && $menu['fingers'] === null )
+                                                            {{ $menu['finger'] }}
+                                                        @elseif( $menu['finger'] === null && $menu['fingers'] != null )
+                                                            {{ $menu['fingers'] }}
+                                                        @endif
+                                                    @endif
+                                                </p>
                                             </div>
                                             @endif
                                         </div>
@@ -236,13 +387,51 @@
                                                     <b>{{ $item['menu'] }}</b>
                                                 </div>
                                                 @if( $item['priceB'] === null )
-                                                <p>￥{{ number_format($item['priceA']) }}</p>
+                                                    <p>
+                                                        @if( $item['plus'] != null )
+                                                            {{ $item['plus'] }}
+                                                        @endif￥
+                                                        
+                                                        {{ number_format($item['priceA']) }}
+                                                        
+                                                        @if( $item['wavy'] != null )
+                                                            {{ $item['wavy'] }}
+                                                        @endif
+                                                        
+                                                        @if( $item['finger'] != null || $item['fingers'] != null )
+                                                            @if( $item['finger'] != null && $item['fingers'] === null )
+                                                                {{ $item['finger'] }}
+                                                            @elseif( $item['finger'] === null && $item['fingers'] != null )
+                                                                {{ $item['fingers'] }}
+                                                            @endif
+                                                        @endif
+                                                    </p>
                                                 @else
-                                                <div>
-                                                    <p>￥{{ number_format($item['priceA']) }}</p>
-                                                    <span>~</span>
-                                                    <p>￥{{ number_format($item['priceB']) }}</p>
-                                                </div>
+                                                    <div>
+                                                        <p>
+                                                            @if( $item['plus'] != null )
+                                                                {{ $item['plus'] }}
+                                                            @endif
+
+                                                            ￥{{ number_format($item['priceA']) }}
+                                                        </p>
+                                                        <span>~</span>
+                                                        <p>
+                                                            ￥{{ number_format($item['priceB']) }}
+
+                                                            @if( $item['wavy'] != null )
+                                                                {{ $item['wavy'] }}
+                                                            @endif
+
+                                                            @if( $item['finger'] != null || $item['fingers'] != null )
+                                                                @if( $item['finger'] != null && $item['fingers'] === null )
+                                                                    {{ $item['finger'] }}
+                                                                @elseif( $item['finger'] === null && $item['fingers'] != null )
+                                                                    {{ $item['fingers'] }}
+                                                                @endif
+                                                            @endif
+                                                        </p>
+                                                    </div>
                                                 @endif
                                             </div>
                                         @endif
@@ -251,6 +440,31 @@
                             @endforeach
                         
                     </div>
+                @endif
+                @if( $gallery_categories->contains('name', $cat['category']) )
+                    @foreach( $gallery_categories as $g_cat )
+                        @if( $g_cat['name'] === $cat['category'] )
+                            <section class="gallery">
+                                @foreach( $g_cat['galleries'] as $gallery )
+                                    <p>
+                                        <img src="{{ Storage::url($gallery['picture']) }}" alt="">
+                                    </p>
+                                @endforeach
+                            </section>
+                        @endif
+                    @endforeach
+                @else
+                    @foreach( $gallery_categories as $g_cat )
+                        @if( $g_cat['name'] === "ALL" )
+                            <section class="gallery">
+                                @foreach( $g_cat['galleries'] as $gallery )
+                                    <p>
+                                        <img src="{{ Storage::url($gallery['picture']) }}" alt="">
+                                    </p>
+                                @endforeach
+                            </section>
+                        @endif
+                    @endforeach
                 @endif
             @endforeach
         </div>
@@ -264,7 +478,7 @@
 
 <script>
 
-    const categories = document.querySelectorAll('.top_categories>div');
+    const categories = document.querySelectorAll('.menu_top_image>div');
         for (const [i, e] of categories.entries()) {
             e.id = `category${i}`;
         }

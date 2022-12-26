@@ -24,7 +24,11 @@ class DatabaseSeeder extends Seeder
 
             UsersTableSeeder::class,
 
-            PartDetailsTableSeeder::class
+            PartDetailsTableSeeder::class,
+
+            GalleryCategoriesTableSeeder::class,
+            GalleriesTableSeeder::class,
+
         ]);
     }
 }

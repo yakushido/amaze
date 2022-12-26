@@ -10,6 +10,13 @@
 <h2 class="form_title">パーツ編集フォーム</h2>
 
 <div class="parts_card">
+    
+    <div>
+        @if($errors->has('part_update'))
+            <p class="message">{{$errors -> first('part_update')}}</p>
+        @endif
+    </div>
+    
     <ul class="parts_ul">
         @foreach( $parts as $part )
         <li>
@@ -18,7 +25,7 @@
                 class="flex">
                 @csrf
                 <input type="text"
-                    name="part"
+                    name="part_update"
                     value="{{ $part['part'] }}">
                 <div>
                     <button class="parts_update">更新</button>

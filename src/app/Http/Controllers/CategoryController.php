@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\CategoryRequest;
+use App\Http\Requests\CategoryUpdateRequest;
 use App\Models\Category;
 use App\Models\Genre;
 
@@ -27,14 +29,14 @@ class CategoryController extends Controller
         ));
     }
 
-    public function store(Request $request)
+    public function store(CategoryRequest $request)
     {
         $img = $request->file('picture')->getClientOriginalName();
         
         $path = $request->file('picture')->storeAs('public/img',$img);
         
         Category::create([
-            'category' => $request['category'],
+            'category' => $request['category_input'],
             'picture' => $path,
             'genre_id' => $request['genre']
         ]);
@@ -43,15 +45,15 @@ class CategoryController extends Controller
             ->back();
     } 
 
-    public function update(Request $request, $id)
+    public function update(CategoryUpdateRequest $request, $id)
     {
         $category_update = Category::find($id); 
 
-        $img = $request->file('picture')->getClientOriginalName();
+        $img = $request->file('picture_update')->getClientOriginalName();
         
-        $path = $request->file('picture')->storeAs('public/img',$img);
+        $path = $request->file('picture_update')->storeAs('public/img',$img);
         
-        $category_update['category'] = $request['category'];
+        $category_update['category'] = $request['category_update'];
         $category_update['picture'] = $path;
 
         $category_update->save();

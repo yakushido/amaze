@@ -23,7 +23,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 2,
@@ -32,7 +36,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 3,
@@ -41,7 +49,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 4,
@@ -50,7 +62,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 5,
@@ -59,7 +75,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 6,
@@ -68,7 +88,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 1, //マッサージ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 7,
@@ -77,7 +101,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 1
+                'part_id' => 1,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 8,
@@ -86,7 +114,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 1
+                'part_id' => 1,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 9,
@@ -95,7 +127,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 1
+                'part_id' => 1,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -105,7 +141,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 2
+                'part_id' => 2,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 11,
@@ -114,7 +154,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 2
+                'part_id' => 2,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 12,
@@ -123,7 +167,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 2
+                'part_id' => 2,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 13,
@@ -132,7 +180,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 3
+                'part_id' => 3,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 14,
@@ -141,7 +193,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 3
+                'part_id' => 3,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 15,
@@ -150,7 +206,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 3
+                'part_id' => 3,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 16,
@@ -159,7 +219,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 4
+                'part_id' => 4,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 17,
@@ -168,7 +232,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 4
+                'part_id' => 4,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 18,
@@ -177,7 +245,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 2, //Cavitation
                 'gender_id' => 2, //women`s
-                'part_id' => 4
+                'part_id' => 4,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             [
@@ -187,7 +259,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 5
+                'part_id' => 5,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 20,
@@ -196,7 +272,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 5
+                'part_id' => 5,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 21,
@@ -205,7 +285,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 5
+                'part_id' => 5,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 22,
@@ -214,7 +298,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 5
+                'part_id' => 5,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 23,
@@ -223,7 +311,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 6
+                'part_id' => 6,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 24,
@@ -232,7 +324,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 6
+                'part_id' => 6,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 25,
@@ -241,7 +337,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 6
+                'part_id' => 6,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 26,
@@ -250,7 +350,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 6
+                'part_id' => 6,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -260,7 +364,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 7
+                'part_id' => 7,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 28,
@@ -269,7 +377,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 7
+                'part_id' => 7,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 29,
@@ -278,7 +390,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 7
+                'part_id' => 7,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 30,
@@ -287,7 +403,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 7
+                'part_id' => 7,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -297,7 +417,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 8
+                'part_id' => 8,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 32,
@@ -306,7 +430,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 8
+                'part_id' => 8,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 33,
@@ -315,7 +443,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 8
+                'part_id' => 8,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 34,
@@ -324,7 +456,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 8
+                'part_id' => 8,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             [
@@ -334,7 +470,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 9
+                'part_id' => 9,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 36,
@@ -343,7 +483,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 9
+                'part_id' => 9,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 37,
@@ -352,7 +496,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 9
+                'part_id' => 9,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 38,
@@ -361,7 +509,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 9
+                'part_id' => 9,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -371,7 +523,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 10
+                'part_id' => 10,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 40,
@@ -380,7 +536,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 10
+                'part_id' => 10,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 41,
@@ -389,7 +549,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 10
+                'part_id' => 10,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 42,
@@ -398,7 +562,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 10
+                'part_id' => 10,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -408,7 +576,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 11
+                'part_id' => 11,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 44,
@@ -417,7 +589,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 11
+                'part_id' => 11,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 45,
@@ -426,7 +602,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 11
+                'part_id' => 11,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 46,
@@ -435,7 +615,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 3, //Hifu
                 'gender_id' => 2, //women`s
-                'part_id' => 11
+                'part_id' => 11,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -445,7 +629,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 4, //フェイシャルエステ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 48,
@@ -454,7 +642,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 4, //フェイシャルエステ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 49,
@@ -463,7 +655,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 4, //フェイシャルエステ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             // Eyelash
@@ -474,7 +670,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 5, //フラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 51,
@@ -483,7 +683,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 5, //フラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 52,
@@ -492,7 +696,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 5, //フラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => "+",
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -502,7 +710,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 6, //3Dボリューム
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 54,
@@ -511,7 +723,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 6, //3Dボリューム
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 55,
@@ -520,7 +736,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 6, //3Dボリューム
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -530,7 +750,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 7, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => "+",
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 57,
@@ -539,7 +763,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 7, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 58,
@@ -548,7 +776,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 7, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => "+",
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -558,7 +790,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 8, //パリジェンヌフラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 60,
@@ -567,7 +803,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 8, //パリジェンヌフラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 61,
@@ -576,7 +816,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 8, //パリジェンヌフラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 62,
@@ -585,7 +829,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 8, //パリジェンヌフラットラッシュ
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => "+",
+                "finger" => null,
+                "fingers" => null,
             ],
 
             //Depilation
@@ -596,7 +844,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 9, //全身脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 64,
@@ -605,7 +857,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 9, //全身脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 65,
@@ -614,7 +870,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 9, //全身脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 66,
@@ -623,7 +883,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 9, //全身脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -633,7 +897,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 12
+                'part_id' => 12,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 68,
@@ -642,7 +910,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 12
+                'part_id' => 12,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 69,
@@ -651,7 +923,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 12
+                'part_id' => 12,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -661,7 +937,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 13
+                'part_id' => 13,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 71,
@@ -670,7 +950,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 13
+                'part_id' => 13,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 72,
@@ -679,7 +963,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 13
+                'part_id' => 13,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -689,7 +977,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 14
+                'part_id' => 14,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 74,
@@ -698,7 +990,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 14
+                'part_id' => 14,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 75,
@@ -707,7 +1003,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 10, //部分脱毛
                 'gender_id' => 2, //women`s
-                'part_id' => 14
+                'part_id' => 14,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -717,7 +1017,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 77,
@@ -726,7 +1030,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 78,
@@ -735,7 +1043,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 79,
@@ -744,7 +1056,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 80,
@@ -753,7 +1069,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 81,
@@ -762,7 +1082,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 82,
@@ -771,7 +1095,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 83,
@@ -780,7 +1108,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 84,
@@ -789,7 +1121,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 85,
@@ -798,7 +1134,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 11, //セレクト６回コース
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             //Wormwood
@@ -809,7 +1149,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 12, //よもぎ蒸し
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 87,
@@ -818,7 +1162,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 12, //よもぎ蒸し
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 88,
@@ -827,7 +1175,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 12, //よもぎ蒸し
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 89,
@@ -836,7 +1188,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 12, //よもぎ蒸し
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => "+",
+                "finger" => null,
+                "fingers" => null,
             ],
 
             //Bridal
@@ -847,7 +1203,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 13, //カスタムメニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 91,
@@ -856,7 +1216,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 13, //カスタムメニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 92,
@@ -865,7 +1229,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 13, //カスタムメニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -875,7 +1243,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 14, //1day
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -885,7 +1257,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 15, //マタニティプラン(16週目から)
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 95,
@@ -894,7 +1270,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 15, //マタニティプラン(16週目から)
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -904,7 +1284,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 97,
@@ -913,7 +1297,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 98,
@@ -922,7 +1310,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 99,
@@ -931,7 +1323,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 100,
@@ -940,7 +1336,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 101,
@@ -949,7 +1349,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 102,
@@ -958,7 +1362,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 103,
@@ -967,7 +1375,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 104,
@@ -976,7 +1388,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 105,
@@ -985,7 +1401,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 106,
@@ -994,7 +1414,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 107,
@@ -1003,7 +1427,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 16, //単品メニュー
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             //Nail
@@ -1014,7 +1442,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 17, //ジェルネイル
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => "~",
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 109,
@@ -1023,7 +1455,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 17, //ジェルネイル
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => "~",
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 110,
@@ -1032,7 +1468,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 17, //ジェルネイル
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 111,
@@ -1041,7 +1481,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 17, //ジェルネイル
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => "~",
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 112,
@@ -1050,7 +1494,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 17, //ジェルネイル
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => "~",
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1060,7 +1508,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 18, //スカルプチュア
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => "~",
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
 
             [
@@ -1070,7 +1522,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => 165,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 115,
@@ -1079,7 +1535,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => "/本数問わず",
             ],
             [
                 'id' => 116,
@@ -1088,7 +1548,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 117,
@@ -1097,7 +1561,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 118,
@@ -1106,7 +1574,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 119,
@@ -1115,7 +1587,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => 220,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 120,
@@ -1124,7 +1600,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 121,
@@ -1133,7 +1613,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 122,
@@ -1142,7 +1626,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 123,
@@ -1151,7 +1639,24 @@ class MenusTableSeeder extends Seeder
                 'priceB' => 1100,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
+            ],
+            [
+                'id' => 172,
+                'menu' => 'キャラクター3D',
+                'priceA' => 1100,
+                'priceB' => null,
+                'category_id' => 19, //オフ・オプション
+                'gender_id' => 2, //women`s
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
             [
                 'id' => 124,
@@ -1160,7 +1665,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 125,
@@ -1169,7 +1678,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 19, //オフ・オプション
                 'gender_id' => 2, //women`s
-                'part_id' => 15
+                'part_id' => 15,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1179,7 +1692,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 20, //ケア
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 127,
@@ -1188,7 +1705,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 20, //ケア
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 128,
@@ -1197,7 +1718,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 20, //ケア
                 'gender_id' => 2, //women`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => "/本",
+                "fingers" => null,
             ],
 
 
@@ -1209,7 +1734,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 19 // ALL
+                'part_id' => 19, // ALL
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 130,
@@ -1218,7 +1747,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 19 // ALL
+                'part_id' => 19, // ALL
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 131,
@@ -1227,7 +1760,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 19 // ALL
+                'part_id' => 19, // ALL
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1237,7 +1774,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 20 // ALL 顔 or VIO
+                'part_id' => 20, // ALL 顔 or VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 133,
@@ -1246,7 +1787,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 20 // ALL 顔 or VIO
+                'part_id' => 20, // ALL 顔 or VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 134,
@@ -1255,7 +1800,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 20 // ALL 顔 or VIO
+                'part_id' => 20, // ALL 顔 or VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1265,7 +1814,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 21 // ALL 顔 + VIO
+                'part_id' => 21, // ALL 顔 + VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 136,
@@ -1274,7 +1827,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 21 // ALL 顔 + VIO
+                'part_id' => 21, // ALL 顔 + VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 137,
@@ -1283,7 +1840,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 21, //全身脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 21 // ALL 顔 + VIO
+                'part_id' => 21, // ALL 顔 + VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1293,7 +1854,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 16 // Face
+                'part_id' => 16, // Face
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 139,
@@ -1302,7 +1867,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 16 // Face
+                'part_id' => 16, // Face
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 140,
@@ -1311,7 +1880,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 16 // Face
+                'part_id' => 16, // Face
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1321,7 +1894,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 17 // VIO
+                'part_id' => 17, // VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 142,
@@ -1330,7 +1907,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 17 // VIO
+                'part_id' => 17, // VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 143,
@@ -1339,7 +1920,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 17 // VIO
+                'part_id' => 17, // VIO
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1349,7 +1934,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 18 // VIO + ヒップ
+                'part_id' => 18, // VIO + ヒップ
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 145,
@@ -1358,7 +1947,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 18 // VIO + ヒップ
+                'part_id' => 18, // VIO + ヒップ
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 146,
@@ -1367,7 +1960,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 18 // VIO + ヒップ
+                'part_id' => 18, // VIO + ヒップ
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1377,7 +1974,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 148,
@@ -1386,7 +1987,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 149,
@@ -1395,7 +2000,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 150,
@@ -1404,7 +2013,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 151,
@@ -1413,7 +2026,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 152,
@@ -1422,7 +2039,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 153,
@@ -1431,7 +2052,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 154,
@@ -1440,7 +2065,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 155,
@@ -1449,7 +2078,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 156,
@@ -1458,7 +2091,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 23, //Select 6set
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1468,7 +2105,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 24, //FACE HEAD
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 158,
@@ -1477,7 +2118,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 24, //FACE HEAD
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 159,
@@ -1486,7 +2131,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 24, //FACE HEAD
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1496,7 +2145,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 25, //BODY
                 'gender_id' => 1, //men`s
-                'part_id' => 24 // 疲労＆リラクゼーション
+                'part_id' => 24, // 疲労＆リラクゼーション
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 161,
@@ -1505,7 +2158,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 25, //BODY
                 'gender_id' => 1, //men`s
-                'part_id' => 25 // 痩身＆疲労＆リラクゼーション
+                'part_id' => 25, // 痩身＆疲労＆リラクゼーション
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 162,
@@ -1514,7 +2171,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 25, //BODY
                 'gender_id' => 1, //men`s
-                'part_id' => 25 // 痩身＆疲労＆リラクゼーション
+                'part_id' => 25, // 痩身＆疲労＆リラクゼーション
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1524,7 +2185,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 26, //OPTION
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 164,
@@ -1533,7 +2198,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 26, //OPTION
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 165,
@@ -1542,7 +2211,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 26, //OPTION
                 'gender_id' => 1, //men`s
-                'part_id' => null
+                'part_id' => null,
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1552,7 +2225,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 22 //S parts
+                'part_id' => 22, //S parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 167,
@@ -1561,7 +2238,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 22 //S parts
+                'part_id' => 22, //S parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 168,
@@ -1570,7 +2251,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 22 //S parts
+                'part_id' => 22, //S parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             
             [
@@ -1580,7 +2265,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 23 //L parts
+                'part_id' => 23, //L parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 170,
@@ -1589,7 +2278,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 23 //L parts
+                'part_id' => 23, //L parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
             [
                 'id' => 171,
@@ -1598,7 +2291,11 @@ class MenusTableSeeder extends Seeder
                 'priceB' => null,
                 'category_id' => 22, //部分脱毛
                 'gender_id' => 1, //men`s
-                'part_id' => 23 //L parts
+                'part_id' => 23, //L parts
+                "wavy" => null,
+                "plus" => null,
+                "finger" => null,
+                "fingers" => null,
             ],
         ]);
     }

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\PartsRequest;
+use App\Http\Requests\PartsUpdateRequest;
 use App\Models\Part;
 
 class PartsController extends Controller
@@ -16,13 +18,13 @@ class PartsController extends Controller
         ));
     }
 
-    public function update(Request $request, $id)
+    public function update(PartsUpdateRequest $request, $id)
     {
         $part_update = Part::find($id);
-        $part_update['part'] = $request['part'];
+        $part_update['part'] = $request['part_update'];
         $part_update->save();
         
-        return ridirect()
+        return redirect()
             ->route('parts.index');
         
     }
@@ -32,7 +34,17 @@ class PartsController extends Controller
         $part_delete = Part::find($id);
         $part_delete->delete();
 
-        return ridirect()
+        return redirect()
             ->route('parts.index');
+    }
+
+    public function store(PartsRequest $request)
+    {
+        Part::create([
+            'part' => $request['part_input']
+        ]);
+
+        return redirect()
+            ->back();
     }
 }

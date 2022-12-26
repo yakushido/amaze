@@ -47,21 +47,5 @@ class WelcomeController extends Controller
         ));
     }
 
-    public function menu_show($gender_id, $genre_id)
-    {
-        $categories = Category::where('genre_id', $genre_id)->get();
-        $menus = Menu::where('gender_id', $gender_id)->get();
-        $parts = Part::all();
-        $gender = Gender::find($gender_id);
-        $genre = Genre::find($genre_id);
-        $part_details = PartDetail::all();
-        return view('menu', compact(
-            'categories',
-            'parts',
-            'gender',
-            'menus',
-            'genre',
-            'part_details'
-        ));
-    }
+    
 }

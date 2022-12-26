@@ -36,6 +36,16 @@ li{
     box-shadow: 1px 1px 5px #c0c0c0;
     text-align: center;
 }
+.message{
+    text-align: center;
+    color: red;
+    font-size: 13px;
+}
+.message_in_title{
+    margin-left: 10px;
+    color: red;
+    font-size: 13px;
+}
 
 /* header */
 .header{
@@ -157,154 +167,157 @@ li{
 }
 
 /* ALL */
-.update_button,
-.add_button{
-    text-align: center;
-    margin-top: 10px;
-}
-.update_button>button{
-    padding: 5px 30px;
-    border: none;
-    box-shadow: 1px 1px 5px #f3e790;
-    border-radius: 5px;
-    background-color: #FFFAD7;
-}
-.add_button>button{
-    padding: 5px 30px;
-    border: none;
-    box-shadow: 1px 1px 5px #90f39f;
-    border-radius: 5px;
-    background-color: #deffd7;
-}
-.inputs_icon{
-    width: 20px;
-}
-.inputs_icon>img{
-    width: 100%;
-}
+    .update_button,
+    .add_button{
+        text-align: center;
+        margin-top: 10px;
+    }
+    .update_button>button{
+        padding: 5px 30px;
+        border: none;
+        box-shadow: 1px 1px 5px #f3e790;
+        border-radius: 5px;
+        background-color: #FFFAD7;
+    }
+    .add_button>button{
+        padding: 5px 30px;
+        border: none;
+        box-shadow: 1px 1px 5px #90f39f;
+        border-radius: 5px;
+        background-color: #deffd7;
+    }
+    .inputs_icon{
+        width: 20px;
+    }
+    .inputs_icon>img{
+        width: 100%;
+    }
+/* ---------------------------------------------- */
 
 /* Admin */
-.form_title{
-    text-align: center;
-    margin: 50px;
-}
+    .form_title{
+        text-align: center;
+        margin: 50px;
+    }
+/* ------------------------------------------------ */
 
 /* input file */
-.input_file{
-    margin-top: 30px;
-    text-align: center;
-}
-.input_file_label{
-    padding: 10px 40px;
-    color: #ffffff;
-    background-color: #384878;
-    cursor: pointer;
-    line-height: 45px;
-}
-.input_file_label>input{
-    display: none;
-}
-.input_file>p{
-    margin-top: 20px;
-}
+    .input_file{
+        margin-top: 30px;
+        text-align: center;
+    }
+    .input_file_label{
+        padding: 10px 40px;
+        color: #ffffff;
+        background-color: #384878;
+        cursor: pointer;
+        line-height: 45px;
+    }
+    .input_file_label>input{
+        display: none;
+    }
+    .input_file>p{
+        margin-top: 20px;
+    }
 /* ------------------ */
 
 /* タイトル */
-.category_title{
-    margin-bottom: 10px;
-    padding: 10px;
-    background-color: #F3F3F3;
-    border-left: 3px solid #ACACAC;
-}
+    .category_title{
+        margin-bottom: 10px;
+        padding: 10px;
+        background-color: #fce2f0;
+        border-left: 3px solid #ACACAC;
+    }
 /* ------------- */
 
 /* 管理者ページ */
-.admin_top_title{
-    text-align: center;
-    margin: 50px;
-}
-.admin_top_title>div{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 20px;
-}
+    .admin_top_title{
+        text-align: center;
+        margin: 50px;
+    }
+    .admin_top_title>div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 20px;
+    }
 /* -------------- */
 
 /* top_title */
-.top_title{
-    text-align: center;
-    padding: 50px;
-}
-.back_button{
-    text-align: center;
-}
-.back_button button{
-    padding: 5px 30px;
-    border: none;
-}
+    .top_title{
+        text-align: center;
+        padding: 50px;
+    }
+    .back_button{
+        text-align: center;
+    }
+    .back_button button{
+        padding: 5px 30px;
+        border: none;
+        background-color: #F0EBE3;
+    }
 /* ---------------- */
 
 /* add_card */
-.add_card
-{
-    background-color: #fff;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #c0c0c0;
-}
-.add_card>h2{
-    text-align: center;
-    padding: 20px;
-    border-radius: 5px 5px 0 0;
-    background-color: #cbcbcb;
-    color: #fff;
-}
-.add_card>h2>span{
-    border: 1px solid #c0906b;
-    border-radius: 15px;
-    font-size: 10px;
-    padding: 0 5px;
-    background-color: #FFC090;
-}
-.add_card>form{
-    padding-bottom: 10px;
-}
-.add_card>form>div:not(:last-child){
-    text-align: center;
-    margin: 20px;
-}
-.add_card>form>div:last-child{
-    text-align: center;
-}
-.add_card>form>div:last-child button{
-    padding: 5px 30px;
-    border: none;
-    box-shadow: 1px 1px 5px #90f39f;
-    border-radius: 5px;
-    background-color: #deffd7;
-}
-.add_card input,
-.add_card select{
-    height: 30px;
-    margin-left: 10px;
-    width: 250px;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #c0c0c0;
-    text-align: center;
-}
-.add_card textarea{
-    height: 100px;
-    margin-top: 10px;
-    width: 80%;
-    border: none;
-    border-radius: 5px;
-    box-shadow: 1px 1px 5px #c0c0c0;
-    text-align: center;
-}
-.textarea>h3{
-    color: #bbbbbb;
-}
+    .add_card
+    {
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+    }
+    .add_card>h2{
+        text-align: center;
+        padding: 20px;
+        border-radius: 5px 5px 0 0;
+        background-color: #cbcbcb;
+        color: #fff;
+    }
+    .add_card>h2>span{
+        border: 1px solid #c0906b;
+        border-radius: 15px;
+        font-size: 10px;
+        padding: 0 5px;
+        background-color: #FFC090;
+    }
+    .add_card>form{
+        padding-bottom: 10px;
+    }
+    .add_card>form>div:not(:last-child){
+        text-align: center;
+        margin: 20px;
+    }
+    .add_card>form>div:last-child{
+        text-align: center;
+    }
+    .add_card>form>div:last-child button{
+        padding: 5px 30px;
+        border: none;
+        box-shadow: 1px 1px 5px #90f39f;
+        border-radius: 5px;
+        background-color: #deffd7;
+    }
+    .add_card input:not([type="checkbox"]),
+    .add_card select{
+        height: 30px;
+        margin-left: 10px;
+        width: 250px;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        text-align: center;
+    }
+    .add_card textarea{
+        height: 100px;
+        margin-top: 10px;
+        width: 80%;
+        border: none;
+        border-radius: 5px;
+        box-shadow: 1px 1px 5px #c0c0c0;
+        text-align: center;
+    }
+    .textarea>h3{
+        color: #bbbbbb;
+    }
 /* ---------------- */
 
 /* update_card */
@@ -313,7 +326,7 @@ li{
         border-radius: 5px;
         box-shadow: 1px 1px 5px #c0c0c0;
         width: 700px;
-        margin: auto;
+        margin: 0 auto 20px;
     }
     .update_card>div{
         display: flex;
@@ -384,11 +397,17 @@ li{
         .video{
             width: 100%;
         }
+        .video video{
+            width: 60%;
+        }
         .map iframe{
             height: 50vh;
         }
         .company_profile{
             width: 100%;
+        }
+        .update_card{
+            width: 80%;
         }
         /* -------------------------- */
     }
@@ -429,6 +448,9 @@ li{
         }
         .company_profile{
             width: 100%;
+        }
+        .update_card{
+            width: 90%;
         }
         /* -------------------------- */
     }

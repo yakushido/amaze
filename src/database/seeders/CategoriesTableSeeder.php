@@ -19,69 +19,69 @@ class CategoriesTableSeeder extends Seeder
             [
                 'id' => 1,
                 'category' => 'マッサージ',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/esthetic_01.jpg',
                 'genre_id' => 1
             ],
             [
                 'id' => 2,
                 'category' => 'Cavitation',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/esthetic_01.jpg',
                 'genre_id' => 1
             ],
             [
                 'id' => 3,
                 'category' => 'Hifu',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/esthetic_01.jpg',
                 'genre_id' => 1
             ],
             [
                 'id' => 4,
                 'category' => 'フェイシャルエステ',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/esthetic_01.jpg',
                 'genre_id' => 1
             ],
             // Eyelash
             [
                 'id' => 5,
                 'category' => 'フラットラッシュ',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/eyelash_01.jpg',
                 'genre_id' => 2
             ],
             [
                 'id' => 6,
                 'category' => '3Dボリューム',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/eyelash_01.jpg',
                 'genre_id' => 2
             ],
             [
                 'id' => 7,
                 'category' => 'オフ・オプション',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/eyelash_01.jpg',
                 'genre_id' => 2
             ],
             [
                 'id' => 8,
                 'category' => 'パリジェンヌフラットラッシュ',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/eyelash_01.jpg',
                 'genre_id' => 2
             ],
             // Depilation 
             [
                 'id' => 9,
                 'category' => '全身脱毛',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/depilation_01.jpg',
                 'genre_id' => 3
             ],
             [
                 'id' => 10,
                 'category' => '部分脱毛',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/depilation_01.jpg',
                 'genre_id' => 3
             ],
             [
                 'id' => 11,
                 'category' => 'セレクト６回コース',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/depilation_01.jpg',
                 'genre_id' => 3
             ],
 
@@ -89,7 +89,7 @@ class CategoriesTableSeeder extends Seeder
             [
                 'id' => 12,
                 'category' => 'よもぎ蒸し',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/wormwood_01.jpg',
                 'genre_id' => 4
             ],
 
@@ -97,25 +97,25 @@ class CategoriesTableSeeder extends Seeder
             [
                 'id' => 13,
                 'category' => 'カスタムメニュー',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/bridal_01.jpg',
                 'genre_id' => 5
             ],
             [
                 'id' => 14,
                 'category' => '1day',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/bridal_01.jpg',
                 'genre_id' => 5
             ],
             [
                 'id' => 15,
                 'category' => 'マタニティプラン(16週目から)',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/bridal_01.jpg',
                 'genre_id' => 5
             ],
             [
                 'id' => 16,
                 'category' => '単品メニュー',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/bridal_01.jpg',
                 'genre_id' => 5
             ],
 
@@ -123,25 +123,25 @@ class CategoriesTableSeeder extends Seeder
             [
                 'id' => 17,
                 'category' => 'ジェルネイル',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/nail_01.jpg',
                 'genre_id' => 6
             ],
             [
                 'id' => 18,
                 'category' => 'スカルプチュア',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/nail_01.jpg',
                 'genre_id' => 6
             ],
             [
                 'id' => 19,
                 'category' => 'オフ・オプション',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/nail_01.jpg',
                 'genre_id' => 6
             ],
             [
                 'id' => 20,
                 'category' => 'ケア',
-                'picture' => 'img/amaze_logo2.jpeg',
+                'picture' => 'img/nail_01.jpg',
                 'genre_id' => 6
             ],
 

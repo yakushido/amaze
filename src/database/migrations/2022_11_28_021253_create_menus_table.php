@@ -21,6 +21,10 @@ class CreateMenusTable extends Migration
             $table->unsignedBigInteger("category_id");
             $table->unsignedBigInteger("gender_id");
             $table->unsignedBigInteger("part_id")->nullable(true);
+            $table->char('wavy')->nullable(True);
+            $table->char('plus')->nullable(True);
+            $table->char('finger')->nullable(True);
+            $table->char('fingers')->nullable(True);
             $table->timestamps();
 
             $table->foreign("category_id")

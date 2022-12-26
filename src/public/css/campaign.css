@@ -8,8 +8,9 @@
 .both{
     background-color: #D2DAFF;
 }
+/* campaign */
 .campaign{
-    width: 800px;
+    width: 700px;
     margin: auto;
 }
 .campaign_ul{
@@ -39,6 +40,7 @@
 .campaign_term>div{
     display: flex;
 }
+/* ------------------------------------------ */
 
 /* campaign_card */
 .campaign_card{
@@ -82,7 +84,7 @@
 
 /* campaign_add_card */
 .campaign_add_card{
-    width: 800px;
+    width: 700px;
     margin:auto;
 }
 .campaign_add_card--date span{
@@ -152,6 +154,13 @@
 }
 /* ----------------------- */
 
+/* campaign_list */
+.campaign_list{
+    width: 700px;
+    margin: 20px auto;
+}
+
+/* ------------------------------------------ */
 .campaign_term_title{
     text-align: center;
     padding: 30px 0 20px;
@@ -159,22 +168,21 @@
 
 
 @media screen and (max-width:769px){
-    
-    .campaign{
-        width: 90%;
-    }
+    .campaign,
     .campaign_card,
-    .campaign_update_card{
-        width: 90%;
+    .campaign_update_card,
+    .campaign_add_card,
+    .campaign_list{
+        width: 80%;
     }
 }
 
 @media screen and (max-width:415px) {
-    .campaign{
-        width: 90%;
-    }
+    .campaign,
     .campaign_card,
-    .campaign_update_card{
+    .campaign_update_card,
+    .campaign_add_card,
+    .campaign_list{
         width: 90%;
     }
     .campaign_term{

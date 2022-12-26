@@ -53,7 +53,7 @@
     </form>
 </div>
 
-<div class="campaign">
+<div class="campaign_list">
     <div>
         <h3 class="campaign_term_title">【 期間中 】</h3>
             @foreach( $campaigns as $cam )
